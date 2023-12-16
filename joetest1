@@ -9,6 +9,7 @@ proxies:
   - {name: 🇸🇬 新加坡Nat2 | Dec/23, server: sgdec23.aofan.me, port: 21805, type: vmess, uuid: d7f296c8-5ee6-4650-8170-57f7b967abdf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sgdec23.aofan.me}}}
   - {name: 🇸🇬 新加坡Nat3 | Dec/23, server: sgdec23.aofan.me, port: 21806, type: vmess, uuid: c03b4f2f-30e7-4ef9-aba2-2d898a35ceb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡Lin｜Sep, server: sgsep2023.aofan.me, port: 10086, type: trojan, password: af888.top, skip-cert-verify: false}
+  - {name: 🇮🇱 🌈彩虹, server: sgsep2023.aofan.me, port: 10085, type: trojan, password: af888.top, skip-cert-verify: false}
   - {name: ☀️☀️☀️, server: hktv1.aofan.top, port: 24642, type: trojan, password: "%2F%2Faf888.top", sni: hktv1.aofan.top, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡A1, server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}}
   - {name: 🇸🇬 新加坡A2, server: m.cnmjcn.com, port: 16618, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjcn.com}}}
@@ -53,18 +54,18 @@ proxies:
   - {name: 🇺🇸 美国F1, server: 2usmax01.170203.xyz, port: 46363, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 2usmax01.170203.xyz, skip-cert-verify: false}
   - {name: 🇺🇸 美国F2, server: 3gzdx1.233235.xyz, port: 43483, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 2usmax01.170203.xyz, skip-cert-verify: false}
   - {name: 🇺🇸 美国F3, server: 2us01.233235.xyz, port: 34563, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 2us01.233235.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾A1, server: yes.cnmjcn.net, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22yes.cnmjcn.net%22%7D"}}}
-  - {name: 🇨🇳 台湾A2, server: m.cnmjcn.com, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22m.cnmjcn.com%22%7D"}}}
-  - {name: 🇨🇳 台湾A3, server: t.cnmjcn.cyou, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22t.cnmjcn.cyou%22%7D"}}}
-  - {name: 🇨🇳 台湾A3 2, server: t.cnmjcn.cyou, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22t.cnmjcn.cyou%22%7D"}}}
-  - {name: 🇨🇳 台湾B1 ｜🔓, server: zf-s.rcdn.link, port: 4, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇨🇳 台湾B2 ｜🔓, server: zf-j.rcdn.link, port: 4, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇨🇳 台湾B3 ｜🔓, server: zf-u.rcdn.link, port: 4, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇨🇳 台湾F1 ｜🔓, server: 4gzdx0.170203.xyz, port: 11123, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 4gzdx0.170203.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾F2 ｜🔓, server: 3gzdx1.233235.xyz, port: 11234, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 3gzdx1.233235.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾F3 ｜🔓, server: 3gzdx3.170203.xyz, port: 11123, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 3gzdx3.170203.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾F4｜🔓, server: 3gzdx4.170203.xyz, port: 11123, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 3gzdx4.170203.xyz, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾F5 ｜🔓, server: 2gzdx2.156786.xyz, port: 11123, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 2gzdx2.156786.xyz, skip-cert-verify: false}
+  - {name: 🇹🇼 TW台湾A1, server: yes.cnmjcn.net, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22yes.cnmjcn.net%22%7D"}}}
+  - {name: 🇹🇼 TW台湾A2, server: m.cnmjcn.com, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22m.cnmjcn.com%22%7D"}}}
+  - {name: 🇹🇼 TW台湾A3, server: t.cnmjcn.cyou, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22t.cnmjcn.cyou%22%7D"}}}
+  - {name: 🇹🇼 TW台湾A3 2, server: t.cnmjcn.cyou, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22t.cnmjcn.cyou%22%7D"}}}
+  - {name: 🇹🇼 TW台湾B1 ｜🔓, server: zf-s.rcdn.link, port: 4, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇹🇼 TW台湾B2 ｜🔓, server: zf-j.rcdn.link, port: 4, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇹🇼 台湾B3 ｜🔓, server: zf-u.rcdn.link, port: 4, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇹🇼 台湾F1 ｜🔓, server: 4gzdx0.170203.xyz, port: 11123, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 4gzdx0.170203.xyz, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾F2 ｜🔓, server: 3gzdx1.233235.xyz, port: 11234, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 3gzdx1.233235.xyz, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾F3 ｜🔓, server: 3gzdx3.170203.xyz, port: 11123, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 3gzdx3.170203.xyz, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾F4｜🔓, server: 3gzdx4.170203.xyz, port: 11123, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 3gzdx4.170203.xyz, skip-cert-verify: false}
+  - {name: 🇹🇼 台湾F5 ｜🔓, server: 2gzdx2.156786.xyz, port: 11123, type: trojan, password: 7a3e6b3a-29a7-42e2-82e0-27af4b8907f9, sni: 2gzdx2.156786.xyz, skip-cert-verify: false}
   - {name: 🇮🇳 印度A1, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}}
   - {name: 🇮🇳 印度B1, server: zf-s.rcdn.link, port: 5, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇮🇳 印度B2, server: zf-j.rcdn.link, port: 5, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
@@ -164,18 +165,18 @@ proxy-groups:
       - 🇺🇸 美国F1
       - 🇺🇸 美国F2
       - 🇺🇸 美国F3
-      - 🇨🇳 台湾A1
-      - 🇨🇳 台湾A2
-      - 🇨🇳 台湾A3
-      - 🇨🇳 台湾A3 2
-      - 🇨🇳 台湾B1 ｜🔓
-      - 🇨🇳 台湾B2 ｜🔓
-      - 🇨🇳 台湾B3 ｜🔓
-      - 🇨🇳 台湾F1 ｜🔓
-      - 🇨🇳 台湾F2 ｜🔓
-      - 🇨🇳 台湾F3 ｜🔓
-      - 🇨🇳 台湾F4｜🔓
-      - 🇨🇳 台湾F5 ｜🔓
+      - 🇹🇼 台湾A1
+      - 🇹🇼 台湾A2
+      - 🇹🇼 台湾A3
+      - 🇹🇼 台湾A3 2
+      - 🇹🇼 台湾B1 ｜🔓
+      - 🇹🇼 台湾B2 ｜🔓
+      - 🇹🇼 台湾B3 ｜🔓
+      - 🇹🇼 台湾F1 ｜🔓
+      - 🇹🇼 台湾F2 ｜🔓
+      - 🇹🇼 台湾F3 ｜🔓
+      - 🇹🇼 台湾F4｜🔓
+      - 🇹🇼 台湾F5 ｜🔓
       - 🇮🇳 印度A1
       - 🇮🇳 印度B1
       - 🇮🇳 印度B2
@@ -275,18 +276,18 @@ proxy-groups:
       - 🇺🇸 美国F1
       - 🇺🇸 美国F2
       - 🇺🇸 美国F3
-      - 🇨🇳 台湾A1
-      - 🇨🇳 台湾A2
-      - 🇨🇳 台湾A3
-      - 🇨🇳 台湾A3 2
-      - 🇨🇳 台湾B1 ｜🔓
-      - 🇨🇳 台湾B2 ｜🔓
-      - 🇨🇳 台湾B3 ｜🔓
-      - 🇨🇳 台湾F1 ｜🔓
-      - 🇨🇳 台湾F2 ｜🔓
-      - 🇨🇳 台湾F3 ｜🔓
-      - 🇨🇳 台湾F4｜🔓
-      - 🇨🇳 台湾F5 ｜🔓
+      - 🇹🇼 台湾A1
+      - 🇹🇼 台湾A2
+      - 🇹🇼 台湾A3
+      - 🇹🇼 台湾A3 2
+      - 🇹🇼 台湾B1 ｜🔓
+      - 🇹🇼 台湾B2 ｜🔓
+      - 🇹🇼 台湾B3 ｜🔓
+      - 🇹🇼 台湾F1 ｜🔓
+      - 🇹🇼 台湾F2 ｜🔓
+      - 🇹🇼 台湾F3 ｜🔓
+      - 🇹🇼 台湾F4｜🔓
+      - 🇹🇼 台湾F5 ｜🔓
       - 🇮🇳 印度A1
       - 🇮🇳 印度B1
       - 🇮🇳 印度B2
@@ -397,18 +398,18 @@ proxy-groups:
       - 🇺🇸 美国F1
       - 🇺🇸 美国F2
       - 🇺🇸 美国F3
-      - 🇨🇳 台湾A1
-      - 🇨🇳 台湾A2
-      - 🇨🇳 台湾A3
-      - 🇨🇳 台湾A3 2
-      - 🇨🇳 台湾B1 ｜🔓
-      - 🇨🇳 台湾B2 ｜🔓
-      - 🇨🇳 台湾B3 ｜🔓
-      - 🇨🇳 台湾F1 ｜🔓
-      - 🇨🇳 台湾F2 ｜🔓
-      - 🇨🇳 台湾F3 ｜🔓
-      - 🇨🇳 台湾F4｜🔓
-      - 🇨🇳 台湾F5 ｜🔓
+      - 🇹🇼 台湾A1
+      - 🇹🇼 台湾A2
+      - 🇹🇼 台湾A3
+      - 🇹🇼 台湾A3 2
+      - 🇹🇼 台湾B1 ｜🔓
+      - 🇹🇼 台湾B2 ｜🔓
+      - 🇹🇼 台湾B3 ｜🔓
+      - 🇹🇼 台湾F1 ｜🔓
+      - 🇹🇼 台湾F2 ｜🔓
+      - 🇹🇼 台湾F3 ｜🔓
+      - 🇹🇼 台湾F4｜🔓
+      - 🇹🇼 台湾F5 ｜🔓
       - 🇮🇳 印度A1
       - 🇮🇳 印度B1
       - 🇮🇳 印度B2
