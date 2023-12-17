@@ -9,7 +9,7 @@ proxies:
   - {name: 🇸🇬 新加坡Nat2 | Dec/23, server: sgdec23.aofan.me, port: 21805, type: vmess, uuid: d7f296c8-5ee6-4650-8170-57f7b967abdf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sgdec23.aofan.me}}}
   - {name: 🇸🇬 新加坡Nat3 | Dec/23, server: sgdec23.aofan.me, port: 21806, type: vmess, uuid: c03b4f2f-30e7-4ef9-aba2-2d898a35ceb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡Lin｜Sep, server: sgsep2023.aofan.me, port: 10086, type: trojan, password: af888.top, skip-cert-verify: false}
-  - {name: 🇰🇵 Have a nice day~, server: sgsep2022.aofan.me, port: 10086, type: trojan, password: af888.top, skip-cert-verify: false}
+  - {name: Have a nice day~, server: sgsep2022.aofan.me, port: 10086, type: trojan, password: af888.top, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡A1, server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}}
   - {name: 🇸🇬 新加坡A2, server: m.cnmjcn.com, port: 16618, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjcn.com}}}
   - {name: 🇸🇬 新加坡A3, server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}}
@@ -18,12 +18,6 @@ proxies:
   - {name: 🇸🇬 新加坡B2, server: zf-s.rcdn.link, port: 1, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇸🇬 新加坡B3, server: zf-j.rcdn.link, port: 1, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇸🇬 新加坡B4, server: zf-u.rcdn.link, port: 1, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇬 新加坡A1 2, server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 36adcde34eee3c2c524d8f94275599b1.mobgslb.tbcache.com}}}
-  - {name: 🇸🇬 新加坡A2 2, server: sg.mjt000.com, port: 443, type: trojan, password: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, sni: sg.mjt000.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本B1, server: jp-d.rcdn.link, port: 80, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bcc301d4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本B2, server: zf-j.rcdn.link, port: 2, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本B3, server: zf-u.rcdn.link, port: 2, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本B4, server: zf-s.rcdn.link, port: 2, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇸🇬 新加坡F1, server: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, port: 46563, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡F2, server: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz, port: 45356, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡F3, server: 2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz, port: 54654, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz, skip-cert-verify: false}
@@ -33,6 +27,10 @@ proxies:
   - {name: 🇸🇬 新加坡F7｜解锁流媒体, server: 3gzdx5.233235.xyz, port: 34726, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2sg01a1956208-d7fd-3c68-28a1-b5c4d84147cf.233235.xyz, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡F8｜解锁流媒体, server: 3gzdx4.170203.xyz, port: 37702, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2sg01a1956208-d7fd-3c68-28a1-b5c4d84147cf.233235.xyz, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡F9｜解锁流媒体, server: 3gzdx5.233235.xyz, port: 38169, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: sg0003.170203.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 日本B1, server: jp-d.rcdn.link, port: 80, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bcc301d4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇯🇵 日本B2, server: zf-j.rcdn.link, port: 2, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇯🇵 日本B3, server: zf-u.rcdn.link, port: 2, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇯🇵 日本B4, server: zf-s.rcdn.link, port: 2, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇰🇷 韩国A1, server: kr.mjt000.com, port: 443, type: trojan, password: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, sni: kr.mjt000.com, skip-cert-verify: false}
   - {name: 🇰🇷 韩国B1, server: kr-d.rcdn.link, port: 80, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2022/12/30/20221230_18562fc37b6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇰🇷 韩国B2, server: zf-s.rcdn.link, port: 3, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
@@ -115,7 +113,7 @@ proxy-groups:
       - 🇸🇬 新加坡Nat2 | Dec/23
       - 🇸🇬 新加坡Nat3 | Dec/23
       - 🇸🇬 新加坡Lin｜Sep
-      - 🇰🇵 Have a nice day~
+      - Have a nice day~
       - 🇸🇬 新加坡A1
       - 🇸🇬 新加坡A2
       - 🇸🇬 新加坡A3
@@ -124,12 +122,6 @@ proxy-groups:
       - 🇸🇬 新加坡B2
       - 🇸🇬 新加坡B3
       - 🇸🇬 新加坡B4
-      - 🇸🇬 新加坡A1 2
-      - 🇸🇬 新加坡A2 2
-      - 🇯🇵 日本B1
-      - 🇯🇵 日本B2
-      - 🇯🇵 日本B3
-      - 🇯🇵 日本B4
       - 🇸🇬 新加坡F1
       - 🇸🇬 新加坡F2
       - 🇸🇬 新加坡F3
@@ -139,6 +131,10 @@ proxy-groups:
       - 🇸🇬 新加坡F7｜解锁流媒体
       - 🇸🇬 新加坡F8｜解锁流媒体
       - 🇸🇬 新加坡F9｜解锁流媒体
+      - 🇯🇵 日本B1
+      - 🇯🇵 日本B2
+      - 🇯🇵 日本B3
+      - 🇯🇵 日本B4
       - 🇰🇷 韩国A1
       - 🇰🇷 韩国B1
       - 🇰🇷 韩国B2
@@ -220,7 +216,7 @@ proxy-groups:
       - 🇸🇬 新加坡Nat2 | Dec/23
       - 🇸🇬 新加坡Nat3 | Dec/23
       - 🇸🇬 新加坡Lin｜Sep
-      - 🇰🇵 Have a nice day~
+      - Have a nice day~
       - 🇸🇬 新加坡A1
       - 🇸🇬 新加坡A2
       - 🇸🇬 新加坡A3
@@ -229,12 +225,6 @@ proxy-groups:
       - 🇸🇬 新加坡B2
       - 🇸🇬 新加坡B3
       - 🇸🇬 新加坡B4
-      - 🇸🇬 新加坡A1 2
-      - 🇸🇬 新加坡A2 2
-      - 🇯🇵 日本B1
-      - 🇯🇵 日本B2
-      - 🇯🇵 日本B3
-      - 🇯🇵 日本B4
       - 🇸🇬 新加坡F1
       - 🇸🇬 新加坡F2
       - 🇸🇬 新加坡F3
@@ -244,6 +234,10 @@ proxy-groups:
       - 🇸🇬 新加坡F7｜解锁流媒体
       - 🇸🇬 新加坡F8｜解锁流媒体
       - 🇸🇬 新加坡F9｜解锁流媒体
+      - 🇯🇵 日本B1
+      - 🇯🇵 日本B2
+      - 🇯🇵 日本B3
+      - 🇯🇵 日本B4
       - 🇰🇷 韩国A1
       - 🇰🇷 韩国B1
       - 🇰🇷 韩国B2
@@ -324,7 +318,7 @@ proxy-groups:
       - 🇸🇬 新加坡Nat2 | Dec/23
       - 🇸🇬 新加坡Nat3 | Dec/23
       - 🇸🇬 新加坡Lin｜Sep
-      - 🇰🇵 Have a nice day~
+      - Have a nice day~
       - 🇸🇬 新加坡A1
       - 🇸🇬 新加坡A2
       - 🇸🇬 新加坡A3
@@ -333,12 +327,6 @@ proxy-groups:
       - 🇸🇬 新加坡B2
       - 🇸🇬 新加坡B3
       - 🇸🇬 新加坡B4
-      - 🇸🇬 新加坡A1 2
-      - 🇸🇬 新加坡A2 2
-      - 🇯🇵 日本B1
-      - 🇯🇵 日本B2
-      - 🇯🇵 日本B3
-      - 🇯🇵 日本B4
       - 🇸🇬 新加坡F1
       - 🇸🇬 新加坡F2
       - 🇸🇬 新加坡F3
@@ -348,6 +336,10 @@ proxy-groups:
       - 🇸🇬 新加坡F7｜解锁流媒体
       - 🇸🇬 新加坡F8｜解锁流媒体
       - 🇸🇬 新加坡F9｜解锁流媒体
+      - 🇯🇵 日本B1
+      - 🇯🇵 日本B2
+      - 🇯🇵 日本B3
+      - 🇯🇵 日本B4
       - 🇰🇷 韩国A1
       - 🇰🇷 韩国B1
       - 🇰🇷 韩国B2
@@ -441,7 +433,7 @@ proxy-groups:
       - 🇸🇬 新加坡Nat2 | Dec/23
       - 🇸🇬 新加坡Nat3 | Dec/23
       - 🇸🇬 新加坡Lin｜Sep
-      - 🇰🇵 Have a nice day~
+      - Have a nice day~
       - 🇸🇬 新加坡A1
       - 🇸🇬 新加坡A2
       - 🇸🇬 新加坡A3
@@ -450,12 +442,6 @@ proxy-groups:
       - 🇸🇬 新加坡B2
       - 🇸🇬 新加坡B3
       - 🇸🇬 新加坡B4
-      - 🇸🇬 新加坡A1 2
-      - 🇸🇬 新加坡A2 2
-      - 🇯🇵 日本B1
-      - 🇯🇵 日本B2
-      - 🇯🇵 日本B3
-      - 🇯🇵 日本B4
       - 🇸🇬 新加坡F1
       - 🇸🇬 新加坡F2
       - 🇸🇬 新加坡F3
@@ -465,6 +451,10 @@ proxy-groups:
       - 🇸🇬 新加坡F7｜解锁流媒体
       - 🇸🇬 新加坡F8｜解锁流媒体
       - 🇸🇬 新加坡F9｜解锁流媒体
+      - 🇯🇵 日本B1
+      - 🇯🇵 日本B2
+      - 🇯🇵 日本B3
+      - 🇯🇵 日本B4
       - 🇰🇷 韩国A1
       - 🇰🇷 韩国B1
       - 🇰🇷 韩国B2
