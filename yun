@@ -5,10 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 台湾A1, server: yes.cnmjcn.net, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 36adcde34eee3c2c524d8f94275599b1.mobgslb.tbcache.com}}
-  - {name: 🇨🇳 台湾A2, server: m.cnmjcn.com, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 36adcde34eee3c2c524d8f94275599b1.mobgslb.tbcache.com}}
-  - {name: 🇨🇳 台湾A3, server: t.cnmjcn.cyou, port: 16616, type: vmess, uuid: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 36adcde34eee3c2c524d8f94275599b1.mobgslb.tbcache.com}}
-  - {name: 🇨🇳 台湾A4, server: hinet.mjt000.com, port: 443, type: trojan, password: 086fdb8c-59b8-4893-a20d-57b623d4b5dc, sni: hinet.mjt000.com, skip-cert-verify: false}
   - {name: 🇨🇳 台湾F1｜解锁流媒体, server: 4gzdx0.170203.xyz, port: 11123, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 4gzdx0.170203.xyz, skip-cert-verify: false}
   - {name: 🇨🇳 台湾F2｜解锁流媒体, server: 3gzdx1.233235.xyz, port: 11234, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 3gzdx1.233235.xyz, skip-cert-verify: false}
   - {name: 🇨🇳 台湾F3｜解锁流媒体, server: 3gzdx3.170203.xyz, port: 11123, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 3gzdx3.170203.xyz, skip-cert-verify: false}
