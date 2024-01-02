@@ -29,15 +29,13 @@ proxies:
   - {name: 🇯🇵 日本F3, server: 2jp01.233235.xyz, port: 34566, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2jp01.233235.xyz, skip-cert-verify: false}
   - {name: 🇯🇵 日本F4, server: 3gzdx1.233235.xyz, port: 64488, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2jpmax04.170203.xyz, skip-cert-verify: false}
   - {name: 🇯🇵 日本F5, server: 3gzdx3.170203.xyz, port: 51427, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2jp04162531be-29a9-2764-8627-51a5f4436fbd.233235.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本B1 2, server: jp-d.rcdn.link, port: 80, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bcc301d4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本B2 2, server: zf-s.rcdn.link, port: 2, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本B3 2, server: zf-j.rcdn.link, port: 2, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本B4 2, server: zf-u.rcdn.link, port: 2, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本F1 2, server: 2jp04162531be-29a9-2764-8627-51a5f4436fbd.233235.xyz, port: 45335, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2jp04162531be-29a9-2764-8627-51a5f4436fbd.233235.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本F2 2, server: 2jp001f7c7ca7c-1866-56c8-2816-9ad85f9e4150.170203.xyz, port: 34656, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2jp001f7c7ca7c-1866-56c8-2816-9ad85f9e4150.170203.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本F3 2, server: 2jp01.233235.xyz, port: 34566, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2jp01.233235.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本F4 2, server: 3gzdx1.233235.xyz, port: 64488, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2jpmax04.170203.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本F5 2, server: 3gzdx3.170203.xyz, port: 51427, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2jp04162531be-29a9-2764-8627-51a5f4436fbd.233235.xyz, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国B1, server: kr-d.rcdn.link, port: 80, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2022/12/30/20221230_18562fc37b6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇰🇷 韩国B2, server: zf-s.rcdn.link, port: 3, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇰🇷 韩国B3, server: zf-j.rcdn.link, port: 3, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇰🇷 韩国B4, server: zf-u.rcdn.link, port: 3, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇰🇷 韩国F1, server: kr01.171713.xyz, port: 443, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: kr01.171713.xyz, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国F2, server: 2gzdx2.156786.xyz, port: 58424, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: kr01.171713.xyz, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国F3, server: 4gzdx0.170203.xyz, port: 18062, type: trojan, password: 773dcc12-9d78-4187-9c61-43b4a0b0de7f, sni: 2kr03411e8dbd-f18c-862b-d8fa-60711850e4bd.233235.xyz, skip-cert-verify: false}
   - {name: 🇺🇸 美国B1, server: us-d.rcdn.link, port: 80, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2022/12/30/20221230_18562fc37b6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇺🇸 美国B2, server: zf-j.rcdn.link, port: 6, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇺🇸 美国B3, server: zf-u.rcdn.link, port: 6, type: vmess, uuid: 8036fda9-8b39-487f-8872-946df1b0728c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
@@ -110,15 +108,13 @@ proxy-groups:
       - 🇯🇵 日本F3
       - 🇯🇵 日本F4
       - 🇯🇵 日本F5
-      - 🇯🇵 日本B1 2
-      - 🇯🇵 日本B2 2
-      - 🇯🇵 日本B3 2
-      - 🇯🇵 日本B4 2
-      - 🇯🇵 日本F1 2
-      - 🇯🇵 日本F2 2
-      - 🇯🇵 日本F3 2
-      - 🇯🇵 日本F4 2
-      - 🇯🇵 日本F5 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国B2
+      - 🇰🇷 韩国B3
+      - 🇰🇷 韩国B4
+      - 🇰🇷 韩国F1
+      - 🇰🇷 韩国F2
+      - 🇰🇷 韩国F3
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
@@ -191,15 +187,13 @@ proxy-groups:
       - 🇯🇵 日本F3
       - 🇯🇵 日本F4
       - 🇯🇵 日本F5
-      - 🇯🇵 日本B1 2
-      - 🇯🇵 日本B2 2
-      - 🇯🇵 日本B3 2
-      - 🇯🇵 日本B4 2
-      - 🇯🇵 日本F1 2
-      - 🇯🇵 日本F2 2
-      - 🇯🇵 日本F3 2
-      - 🇯🇵 日本F4 2
-      - 🇯🇵 日本F5 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国B2
+      - 🇰🇷 韩国B3
+      - 🇰🇷 韩国B4
+      - 🇰🇷 韩国F1
+      - 🇰🇷 韩国F2
+      - 🇰🇷 韩国F3
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
@@ -272,15 +266,13 @@ proxy-groups:
       - 🇯🇵 日本F3
       - 🇯🇵 日本F4
       - 🇯🇵 日本F5
-      - 🇯🇵 日本B1 2
-      - 🇯🇵 日本B2 2
-      - 🇯🇵 日本B3 2
-      - 🇯🇵 日本B4 2
-      - 🇯🇵 日本F1 2
-      - 🇯🇵 日本F2 2
-      - 🇯🇵 日本F3 2
-      - 🇯🇵 日本F4 2
-      - 🇯🇵 日本F5 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国B2
+      - 🇰🇷 韩国B3
+      - 🇰🇷 韩国B4
+      - 🇰🇷 韩国F1
+      - 🇰🇷 韩国F2
+      - 🇰🇷 韩国F3
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
@@ -352,15 +344,13 @@ proxy-groups:
       - 🇯🇵 日本F3
       - 🇯🇵 日本F4
       - 🇯🇵 日本F5
-      - 🇯🇵 日本B1 2
-      - 🇯🇵 日本B2 2
-      - 🇯🇵 日本B3 2
-      - 🇯🇵 日本B4 2
-      - 🇯🇵 日本F1 2
-      - 🇯🇵 日本F2 2
-      - 🇯🇵 日本F3 2
-      - 🇯🇵 日本F4 2
-      - 🇯🇵 日本F5 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国B2
+      - 🇰🇷 韩国B3
+      - 🇰🇷 韩国B4
+      - 🇰🇷 韩国F1
+      - 🇰🇷 韩国F2
+      - 🇰🇷 韩国F3
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
@@ -432,15 +422,13 @@ proxy-groups:
       - 🇯🇵 日本F3
       - 🇯🇵 日本F4
       - 🇯🇵 日本F5
-      - 🇯🇵 日本B1 2
-      - 🇯🇵 日本B2 2
-      - 🇯🇵 日本B3 2
-      - 🇯🇵 日本B4 2
-      - 🇯🇵 日本F1 2
-      - 🇯🇵 日本F2 2
-      - 🇯🇵 日本F3 2
-      - 🇯🇵 日本F4 2
-      - 🇯🇵 日本F5 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国B2
+      - 🇰🇷 韩国B3
+      - 🇰🇷 韩国B4
+      - 🇰🇷 韩国F1
+      - 🇰🇷 韩国F2
+      - 🇰🇷 韩国F3
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
@@ -512,15 +500,13 @@ proxy-groups:
       - 🇯🇵 日本F3
       - 🇯🇵 日本F4
       - 🇯🇵 日本F5
-      - 🇯🇵 日本B1 2
-      - 🇯🇵 日本B2 2
-      - 🇯🇵 日本B3 2
-      - 🇯🇵 日本B4 2
-      - 🇯🇵 日本F1 2
-      - 🇯🇵 日本F2 2
-      - 🇯🇵 日本F3 2
-      - 🇯🇵 日本F4 2
-      - 🇯🇵 日本F5 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国B2
+      - 🇰🇷 韩国B3
+      - 🇰🇷 韩国B4
+      - 🇰🇷 韩国F1
+      - 🇰🇷 韩国F2
+      - 🇰🇷 韩国F3
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
@@ -593,15 +579,13 @@ proxy-groups:
       - 🇯🇵 日本F3
       - 🇯🇵 日本F4
       - 🇯🇵 日本F5
-      - 🇯🇵 日本B1 2
-      - 🇯🇵 日本B2 2
-      - 🇯🇵 日本B3 2
-      - 🇯🇵 日本B4 2
-      - 🇯🇵 日本F1 2
-      - 🇯🇵 日本F2 2
-      - 🇯🇵 日本F3 2
-      - 🇯🇵 日本F4 2
-      - 🇯🇵 日本F5 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国B2
+      - 🇰🇷 韩国B3
+      - 🇰🇷 韩国B4
+      - 🇰🇷 韩国F1
+      - 🇰🇷 韩国F2
+      - 🇰🇷 韩国F3
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
@@ -690,15 +674,13 @@ proxy-groups:
       - 🇯🇵 日本F3
       - 🇯🇵 日本F4
       - 🇯🇵 日本F5
-      - 🇯🇵 日本B1 2
-      - 🇯🇵 日本B2 2
-      - 🇯🇵 日本B3 2
-      - 🇯🇵 日本B4 2
-      - 🇯🇵 日本F1 2
-      - 🇯🇵 日本F2 2
-      - 🇯🇵 日本F3 2
-      - 🇯🇵 日本F4 2
-      - 🇯🇵 日本F5 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国B2
+      - 🇰🇷 韩国B3
+      - 🇰🇷 韩国B4
+      - 🇰🇷 韩国F1
+      - 🇰🇷 韩国F2
+      - 🇰🇷 韩国F3
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
