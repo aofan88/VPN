@@ -36,9 +36,9 @@ proxies:
   - {name: 🇺🇸 美国B1, server: zf-s.rcdn.link, port: 6, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇺🇸 美国B2, server: zf-j.rcdn.link, port: 6, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇺🇸 美国B3, server: zf-u.rcdn.link, port: 6, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇨🇳 台湾A1, server: yes.cnmjcn.net, port: 16616, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇨🇳 台湾A2, server: m.cnmjcn.com, port: 16616, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇨🇳 台湾A3, server: t.cnmjcn.cyou, port: 16616, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
+  - {name: 🇹🇼 台湾A1, server: yes.cnmjcn.net, port: 16616, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
+  - {name: 🇹🇼 台湾A2, server: m.cnmjcn.com, port: 16616, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
+  - {name: 🇹🇼 台湾A3, server: t.cnmjcn.cyou, port: 16616, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
   - {name: 🇬🇧 英国A1, server: yes.cnmjcn.net, port: 16645, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
   - {name: 🇬🇧 英国A2, server: m.cnmjcn.com, port: 16645, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
   - {name: 🇬🇧 英国A3, server: t.cnmjcn.cyou, port: 16645, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
@@ -103,9 +103,9 @@ proxy-groups:
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
-      - 🇨🇳 台湾A1
-      - 🇨🇳 台湾A2
-      - 🇨🇳 台湾A3
+      - 🇹🇼 台湾A1
+      - 🇹🇼 台湾A2
+      - 🇹🇼 台湾A3
       - 🇬🇧 英国A1
       - 🇬🇧 英国A2
       - 🇬🇧 英国A3
@@ -170,9 +170,9 @@ proxy-groups:
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
-      - 🇨🇳 台湾A1
-      - 🇨🇳 台湾A2
-      - 🇨🇳 台湾A3
+      - 🇹🇼 台湾A1
+      - 🇹🇼 台湾A2
+      - 🇹🇼 台湾A3
       - 🇬🇧 英国A1
       - 🇬🇧 英国A2
       - 🇬🇧 英国A3
@@ -248,9 +248,9 @@ proxy-groups:
       - 🇺🇸 美国B1
       - 🇺🇸 美国B2
       - 🇺🇸 美国B3
-      - 🇨🇳 台湾A1
-      - 🇨🇳 台湾A2
-      - 🇨🇳 台湾A3
+      - 🇹🇼 台湾A1
+      - 🇹🇼 台湾A2
+      - 🇹🇼 台湾A3
       - 🇬🇧 英国A1
       - 🇬🇧 英国A2
       - 🇬🇧 英国A3
