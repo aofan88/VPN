@@ -4,208 +4,107 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver: [119.29.29.29, 223.5.5.5]
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver: [https://doh.pub/dns-query, https://dns.alidns.com/dns-query]
+  fallback: [tls://1.0.0.1:853, https://cloudflare-dns.com/dns-query, https://dns.google/dns-query]
+  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32]}
 proxies:
-  - {name: 🇸🇬 新加坡AWS ③｜Trojan, server: sgawsfeb17test1.aofan.me, port: 20010, type: trojan, password: af888.top}
-  - {name: 🇸🇬 新加坡AWS ②｜Apr/23, server: vm-sg3.8top.top, port: 80, type: vmess, uuid: 76ee660b-d53a-4301-d935-2ee849334cb7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a271377_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}}
-  - {name: 🇸🇬 新加坡AWS ①｜Feb/24, server: vm-sg4.8top.top, port: 80, type: vmess, uuid: f2735250-f59b-4918-e76f-4248adc08772, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a23ed8b_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}}
-  - {name: 啊來來來-金將軍訂製, server: sg-d.rcdn.link, port: 81, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522svideo.mfa.gov.cn%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}}
-  - {name: 🏳️‍🌈 ExpireDate：2024.03.14, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522svideo.mfa.gov.cn%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}}
-  - {name: 🇸🇬 新加坡A1, server: yes.cnmjcn.net, port: 16618, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇸🇬 新加坡A2, server: m.cnmjcn.com, port: 16618, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇸🇬 新加坡A3, server: t.cnmjcn.cyou, port: 16618, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇸🇬 新加坡A4, server: sg.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: sg.mjt000.com}
-  - {name: 🇸🇬 新加坡B1, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇬 新加坡B2, server: zf-s.rcdn.link, port: 1, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇬 新加坡B3, server: zf-j.rcdn.link, port: 1, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇬 新加坡B4, server: zf-u.rcdn.link, port: 1, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本A1, server: yes.cnmjcn.net, port: 16617, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}}
-  - {name: 🇯🇵 日本A2, server: m.cnmjcn.com, port: 16617, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjcn.com}}}
-  - {name: 🇯🇵 日本A3, server: t.cnmjcn.cyou, port: 16617, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: t.cnmjcn.cyou}}}
-  - {name: 🇯🇵 日本A4, server: jp.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: jp.mjt000.com}
-  - {name: 🇯🇵 日本B1, server: jp-d.rcdn.link, port: 80, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bcc301d4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本B2, server: zf-s.rcdn.link, port: 2, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本B3, server: zf-j.rcdn.link, port: 2, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本B3 2, server: zf-u.rcdn.link, port: 2, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇰🇷 韩国B1, server: kr-d.rcdn.link, port: 80, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2022/12/30/20221230_18562fc37b6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇰🇷 韩国B2, server: zf-s.rcdn.link, port: 3, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇰🇷 韩国B3, server: zf-j.rcdn.link, port: 3, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇰🇷 韩国B4, server: zf-u.rcdn.link, port: 3, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇰🇵 朝鲜-娱乐节点, server: m.cnmjcn.com, port: 16628, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇰🇵 朝鲜-娱乐节点2, server: t.cnmjcn.cyou, port: 16628, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇺🇸 美国A1, server: yes.cnmjcn.net, port: 16648, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇺🇸 美国A2, server: m.cnmjcn.com, port: 16648, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇺🇸 美国A3, server: t.cnmjcn.cyou, port: 16648, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇺🇸 美国B1, server: zf-s.rcdn.link, port: 6, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇺🇸 美国B2, server: zf-j.rcdn.link, port: 6, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇺🇸 美国B3, server: zf-u.rcdn.link, port: 6, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇹🇼 台湾A1, server: yes.cnmjcn.net, port: 16616, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇹🇼 台湾A2, server: m.cnmjcn.com, port: 16616, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇹🇼 台湾A3, server: t.cnmjcn.cyou, port: 16616, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇬🇧 英国A1, server: yes.cnmjcn.net, port: 16645, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇬🇧 英国A2, server: m.cnmjcn.com, port: 16645, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇬🇧 英国A3, server: t.cnmjcn.cyou, port: 16645, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇮🇳 印度, server: yes.cnmjcn.net, port: 16626, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇺🇦 乌克兰A1, server: ua.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: ua.mjt000.com}
-  - {name: 🇺🇦 乌克兰B1, server: zf-s.rcdn.link, port: 7, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇺🇦 乌克兰B2, server: zf-j.rcdn.link, port: 7, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇺🇦 乌克兰B3, server: zf-u.rcdn.link, port: 7, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇷🇺 俄罗斯A1, server: ru.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: ru.mjt000.com}
-  - {name: 🇭🇰 香港A1, server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇭🇰 香港A2, server: m.cnmjcn.com, port: 16632, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇭🇰 香港A3, server: yes.cnmjcn.net, port: 16622, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇭🇰 香港A4, server: m.cnmjcn.com, port: 16622, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇭🇰 香港A5, server: m.cnmjcn.com, port: 16620, type: vmess, uuid: fbf636af-83a6-4d43-aa50-c041041c10cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: bcadfef1e0210fb51f975b74c4fcc725.mobgslb.tbcache.com}}}
-  - {name: 🇸🇪 瑞典B1, server: zf-s.rcdn.link, port: 8, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇪 瑞典B2, server: zf-j.rcdn.link, port: 8, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇪 瑞典B3, server: zf-u.rcdn.link, port: 8, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇫🇷 法国B1, server: zf-s.rcdn.link, port: 9, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇫🇷 法国B2, server: zf-j.rcdn.link, port: 9, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇫🇷 法国B3, server: zf-u.rcdn.link, port: 9, type: vmess, uuid: a20ba47c-9d59-4b46-898d-c2508de30c3c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇻🇳 越南, server: vn.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: vn.mjt000.com}
-  - {name: 🇨🇭 瑞士A1, server: ch.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: ch.mjt000.com}
-  - {name: 🇹🇷 土耳其A1, server: tr.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: tr.mjt000.com}
-  - {name: 🇵🇹 葡萄牙A1, server: pt.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: pt.mjt000.com}
-  - {name: 🇮🇱 以色列A1, server: il.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: il.mjt000.com}
-  - {name: 🇦🇷 阿根廷A1, server: ar.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: ar.mjt000.com}
-  - {name: 🇰🇭 柬埔寨⚠️慎用, server: kh.mjt000.com, port: 443, type: trojan, password: fbf636af-83a6-4d43-aa50-c041041c10cc, sni: kh.mjt000.com}
+  - {name: 🇸🇬 新加坡AWS③｜Apr/13, server: vm-sg4.8top.top, port: 80, type: vmess, uuid: 25caee0d-20df-49b0-a7e3-3c21a2cbfe8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a23ed8b_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇸🇬 新加坡AWS ②｜Apr/23, server: vm-sg3.8top.top, port: 80, type: vmess, uuid: 76ee660b-d53a-4301-d935-2ee849334cb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a271377_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}, udp: true}
+  - {name: 🇬🇬 R.I.P - 向战神Dec致敬🫡, server: sg-d.rcdn.link, port: 81, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522svideo.mfa.gov.cn%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}, udp: true}
+  - {name: 🇸🇴 ExpireDate：2024.03.14, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇸🇬 新加坡B1, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇸🇬 新加坡B2, server: zf-s.rcdn.link, port: 1, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇸🇬 新加坡B3, server: zf-j.rcdn.link, port: 1, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇸🇬 新加坡B4, server: zf-u.rcdn.link, port: 1, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇯🇵 日本B1, server: jp-d.rcdn.link, port: 80, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bcc301d4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇯🇵 日本B2, server: zf-s.rcdn.link, port: 2, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇯🇵 日本B3, server: zf-j.rcdn.link, port: 2, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇯🇵 日本B4, server: zf-u.rcdn.link, port: 2, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇺🇸 美国B1, server: us-d.rcdn.link, port: 80, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2022/12/30/20221230_18562fc37b6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇺🇸 美国B2, server: zf-s.rcdn.link, port: 6, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇺🇸 美国B3, server: zf-j.rcdn.link, port: 6, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇺🇸 美国B4, server: zf-u.rcdn.link, port: 6, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇰🇷 韩国B1, server: kr-d.rcdn.link, port: 80, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2022/12/30/20221230_18562fc37b6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇰🇷 韩国B2, server: zf-s.rcdn.link, port: 3, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇰🇷 韩国B3, server: zf-j.rcdn.link, port: 3, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇰🇷 韩国B4, server: zf-u.rcdn.link, port: 3, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2dad60_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇸🇪 瑞典B1, server: zf-s.rcdn.link, port: 8, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇸🇪 瑞典B2, server: zf-j.rcdn.link, port: 8, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇸🇪 瑞典B3, server: zf-u.rcdn.link, port: 8, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇫🇷 法国B1, server: zf-s.rcdn.link, port: 9, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇫🇷 法国B2, server: zf-j.rcdn.link, port: 9, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇫🇷 法国B3, server: zf-u.rcdn.link, port: 9, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡AWS ③｜Trojan
+      - 🇸🇬 新加坡AWS③｜Apr/13
       - 🇸🇬 新加坡AWS ②｜Apr/23
-      - 🇸🇬 新加坡AWS ①｜Feb/24
-      - 啊來來來-金將軍訂製
-      - 🏳️‍🌈 ExpireDate：2024.03.14
-      - 🇸🇬 新加坡A1
-      - 🇸🇬 新加坡A2
-      - 🇸🇬 新加坡A3
-      - 🇸🇬 新加坡A4
+      - 🇬🇬 R.I.P - 向战神Dec致敬🫡
+      - 🇸🇴 ExpireDate：2024.03.14
       - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡B2
       - 🇸🇬 新加坡B3
       - 🇸🇬 新加坡B4
-      - 🇯🇵 日本A1
-      - 🇯🇵 日本A2
-      - 🇯🇵 日本A3
-      - 🇯🇵 日本A4
       - 🇯🇵 日本B1
       - 🇯🇵 日本B2
       - 🇯🇵 日本B3
-      - 🇯🇵 日本B3 2
+      - 🇯🇵 日本B4
+      - 🇺🇸 美国B1
+      - 🇺🇸 美国B2
+      - 🇺🇸 美国B3
+      - 🇺🇸 美国B4
       - 🇰🇷 韩国B1
       - 🇰🇷 韩国B2
       - 🇰🇷 韩国B3
       - 🇰🇷 韩国B4
-      - 🇰🇵 朝鲜-娱乐节点
-      - 🇰🇵 朝鲜-娱乐节点2
-      - 🇺🇸 美国A1
-      - 🇺🇸 美国A2
-      - 🇺🇸 美国A3
-      - 🇺🇸 美国B1
-      - 🇺🇸 美国B2
-      - 🇺🇸 美国B3
-      - 🇹🇼 台湾A1
-      - 🇹🇼 台湾A2
-      - 🇹🇼 台湾A3
-      - 🇬🇧 英国A1
-      - 🇬🇧 英国A2
-      - 🇬🇧 英国A3
-      - 🇮🇳 印度
-      - 🇺🇦 乌克兰A1
-      - 🇺🇦 乌克兰B1
-      - 🇺🇦 乌克兰B2
-      - 🇺🇦 乌克兰B3
-      - 🇷🇺 俄罗斯A1
-      - 🇭🇰 香港A1
-      - 🇭🇰 香港A2
-      - 🇭🇰 香港A3
-      - 🇭🇰 香港A4
-      - 🇭🇰 香港A5
       - 🇸🇪 瑞典B1
       - 🇸🇪 瑞典B2
       - 🇸🇪 瑞典B3
       - 🇫🇷 法国B1
       - 🇫🇷 法国B2
       - 🇫🇷 法国B3
-      - 🇻🇳 越南
-      - 🇨🇭 瑞士A1
-      - 🇹🇷 土耳其A1
-      - 🇵🇹 葡萄牙A1
-      - 🇮🇱 以色列A1
-      - 🇦🇷 阿根廷A1
-      - 🇰🇭 柬埔寨⚠️慎用
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡AWS ③｜Trojan
+      - 🇸🇬 新加坡AWS③｜Apr/13
       - 🇸🇬 新加坡AWS ②｜Apr/23
-      - 🇸🇬 新加坡AWS ①｜Feb/24
-      - 啊來來來-金將軍訂製
-      - 🏳️‍🌈 ExpireDate：2024.03.14
-      - 🇸🇬 新加坡A1
-      - 🇸🇬 新加坡A2
-      - 🇸🇬 新加坡A3
-      - 🇸🇬 新加坡A4
+      - 🇬🇬 R.I.P - 向战神Dec致敬🫡
+      - 🇸🇴 ExpireDate：2024.03.14
       - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡B2
       - 🇸🇬 新加坡B3
       - 🇸🇬 新加坡B4
-      - 🇯🇵 日本A1
-      - 🇯🇵 日本A2
-      - 🇯🇵 日本A3
-      - 🇯🇵 日本A4
       - 🇯🇵 日本B1
       - 🇯🇵 日本B2
       - 🇯🇵 日本B3
-      - 🇯🇵 日本B3 2
+      - 🇯🇵 日本B4
+      - 🇺🇸 美国B1
+      - 🇺🇸 美国B2
+      - 🇺🇸 美国B3
+      - 🇺🇸 美国B4
       - 🇰🇷 韩国B1
       - 🇰🇷 韩国B2
       - 🇰🇷 韩国B3
       - 🇰🇷 韩国B4
-      - 🇰🇵 朝鲜-娱乐节点
-      - 🇰🇵 朝鲜-娱乐节点2
-      - 🇺🇸 美国A1
-      - 🇺🇸 美国A2
-      - 🇺🇸 美国A3
-      - 🇺🇸 美国B1
-      - 🇺🇸 美国B2
-      - 🇺🇸 美国B3
-      - 🇹🇼 台湾A1
-      - 🇹🇼 台湾A2
-      - 🇹🇼 台湾A3
-      - 🇬🇧 英国A1
-      - 🇬🇧 英国A2
-      - 🇬🇧 英国A3
-      - 🇮🇳 印度
-      - 🇺🇦 乌克兰A1
-      - 🇺🇦 乌克兰B1
-      - 🇺🇦 乌克兰B2
-      - 🇺🇦 乌克兰B3
-      - 🇷🇺 俄罗斯A1
-      - 🇭🇰 香港A1
-      - 🇭🇰 香港A2
-      - 🇭🇰 香港A3
-      - 🇭🇰 香港A4
-      - 🇭🇰 香港A5
       - 🇸🇪 瑞典B1
       - 🇸🇪 瑞典B2
       - 🇸🇪 瑞典B3
       - 🇫🇷 法国B1
       - 🇫🇷 法国B2
       - 🇫🇷 法国B3
-      - 🇻🇳 越南
-      - 🇨🇭 瑞士A1
-      - 🇹🇷 土耳其A1
-      - 🇵🇹 葡萄牙A1
-      - 🇮🇱 以色列A1
-      - 🇦🇷 阿根廷A1
-      - 🇰🇭 柬埔寨⚠️慎用
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,69 +122,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡AWS ③｜Trojan
+      - 🇸🇬 新加坡AWS③｜Apr/13
       - 🇸🇬 新加坡AWS ②｜Apr/23
-      - 🇸🇬 新加坡AWS ①｜Feb/24
-      - 啊來來來-金將軍訂製
-      - 🏳️‍🌈 ExpireDate：2024.03.14
-      - 🇸🇬 新加坡A1
-      - 🇸🇬 新加坡A2
-      - 🇸🇬 新加坡A3
-      - 🇸🇬 新加坡A4
+      - 🇬🇬 R.I.P - 向战神Dec致敬🫡
+      - 🇸🇴 ExpireDate：2024.03.14
       - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡B2
       - 🇸🇬 新加坡B3
       - 🇸🇬 新加坡B4
-      - 🇯🇵 日本A1
-      - 🇯🇵 日本A2
-      - 🇯🇵 日本A3
-      - 🇯🇵 日本A4
       - 🇯🇵 日本B1
       - 🇯🇵 日本B2
       - 🇯🇵 日本B3
-      - 🇯🇵 日本B3 2
+      - 🇯🇵 日本B4
+      - 🇺🇸 美国B1
+      - 🇺🇸 美国B2
+      - 🇺🇸 美国B3
+      - 🇺🇸 美国B4
       - 🇰🇷 韩国B1
       - 🇰🇷 韩国B2
       - 🇰🇷 韩国B3
       - 🇰🇷 韩国B4
-      - 🇰🇵 朝鲜-娱乐节点
-      - 🇰🇵 朝鲜-娱乐节点2
-      - 🇺🇸 美国A1
-      - 🇺🇸 美国A2
-      - 🇺🇸 美国A3
-      - 🇺🇸 美国B1
-      - 🇺🇸 美国B2
-      - 🇺🇸 美国B3
-      - 🇹🇼 台湾A1
-      - 🇹🇼 台湾A2
-      - 🇹🇼 台湾A3
-      - 🇬🇧 英国A1
-      - 🇬🇧 英国A2
-      - 🇬🇧 英国A3
-      - 🇮🇳 印度
-      - 🇺🇦 乌克兰A1
-      - 🇺🇦 乌克兰B1
-      - 🇺🇦 乌克兰B2
-      - 🇺🇦 乌克兰B3
-      - 🇷🇺 俄罗斯A1
-      - 🇭🇰 香港A1
-      - 🇭🇰 香港A2
-      - 🇭🇰 香港A3
-      - 🇭🇰 香港A4
-      - 🇭🇰 香港A5
       - 🇸🇪 瑞典B1
       - 🇸🇪 瑞典B2
       - 🇸🇪 瑞典B3
       - 🇫🇷 法国B1
       - 🇫🇷 法国B2
       - 🇫🇷 法国B3
-      - 🇻🇳 越南
-      - 🇨🇭 瑞士A1
-      - 🇹🇷 土耳其A1
-      - 🇵🇹 葡萄牙A1
-      - 🇮🇱 以色列A1
-      - 🇦🇷 阿根廷A1
-      - 🇰🇭 柬埔寨⚠️慎用
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
