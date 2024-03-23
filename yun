@@ -5,8 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡AWS ③｜Apr/13, server: vm-sg4.8top.top, port: 80, type: vmess, uuid: 25caee0d-20df-49b0-a7e3-3c21a2cbfe8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a23ed8b_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇬 新加坡AWS ②｜Apr/23, server: vm-sg3.8top.top, port: 80, type: vmess, uuid: 76ee660b-d53a-4301-d935-2ee849334cb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a271377_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}}
+  - {name: 🇸🇬 新加坡AWS｜May/25, server: vm-sg7.8top.top, port: 80, type: vmess, uuid: bcb59a75-cecb-4b89-9819-f6cc9a4ee80c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/22/20230322_187068db3d6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: Have a nice day~, server: sgsep2022.aofan.me, port: 10086, type: trojan, password: af888.top, skip-cert-verify: false}
   - {name: 🇸🇬 新加坡B1, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}}
   - {name: 🇸🇬 新加坡B2, server: zf-s.rcdn.link, port: 1, type: vmess, uuid: 31c5ad88-a72f-42b4-960a-4b23453b6f5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/11/15/20231115_18bd196f169_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}}
@@ -50,8 +49,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡AWS ③｜Apr/13
-      - 🇸🇬 新加坡AWS ②｜Apr/23
+      - 🇸🇬 新加坡AWS｜May/25
       - Have a nice day~
       - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡B2
@@ -95,8 +93,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡AWS ③｜Apr/13
-      - 🇸🇬 新加坡AWS ②｜Apr/23
+      - 🇸🇬 新加坡AWS｜May/25
       - Have a nice day~
       - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡B2
@@ -151,8 +148,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡AWS ③｜Apr/13
-      - 🇸🇬 新加坡AWS ②｜Apr/23
+      - 🇸🇬 新加坡AWS｜May/25
       - Have a nice day~
       - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡B2
