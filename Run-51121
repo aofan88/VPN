@@ -6,115 +6,131 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇸🇬 新加坡AWS｜May/25, server: vm-sg7.8top.top, port: 80, type: vmess, uuid: bcb59a75-cecb-4b89-9819-f6cc9a4ee80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/22/20230322_187068db3d6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: R.I.P - 向战神Dec致敬🫡, server: sg-d.rcdn.link, port: 81, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522svideo.mfa.gov.cn%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}}
-  - {name: 🏳️‍🌈 ExpireDate：2024.04.17, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇬 新加坡D1, server: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, port: 5555, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz}
-  - {name: 🇸🇬 新加坡D2, server: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz, port: 22222, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz}
-  - {name: 🇸🇬 新加坡D3, server: sg003981958a8-15fb-e3c0-b4a1-1f8ce65a6bac.233235.xyz, port: 11111, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: sg003981958a8-15fb-e3c0-b4a1-1f8ce65a6bac.233235.xyz}
-  - {name: 🇸🇬 新加坡D4, server: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz, port: 11111, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz}
-  - {name: 🇸🇬 新加坡C1, server: 185.151.146.123, port: 80, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇸🇬 新加坡C2, server: 188.253.4.40, port: 80, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇸🇬 新加坡C3, server: zf-lolilio89u-jp1.8top.top, port: 46972, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇸🇬 新加坡C4, server: zf-lolilio89u-jp1.8top.top, port: 4999, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇯🇵 日本D1, server: 2jp06.170203.xyz, port: 555, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2jp06.170203.xyz}
-  - {name: 🇯🇵 日本D2, server: 2jpmax05.233235.xyz, port: 222, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2jpmax05.233235.xyz}
-  - {name: 🇯🇵 日本D3, server: jp0003.156786.xyz, port: 222, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: jp0003.156786.xyz}
-  - {name: 🇰🇷 韩国D1, server: 0kr02.156786.xyz, port: 444, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 0kr02.156786.xyz}
-  - {name: 🇰🇷 韩国D2, server: 2kr03411e8dbd-f18c-862b-d8fa-60711850e4bd.233235.xyz, port: 5556, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2kr03411e8dbd-f18c-862b-d8fa-60711850e4bd.233235.xyz}
-  - {name: 🇰🇷 韩国D3, server: tw60.233235.xyz, port: 25076, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2kr03411e8dbd-f18c-862b-d8fa-60711850e4bd.233235.xyz}
-  - {name: 🇰🇷 韩国D1 2, server: s5.956256.xyz, port: 10552, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇬🇧 英国D1, server: uk011712fbec-507b-957e-e396-77cc61a4d6f6.170203.xyz, port: 444, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: uk011712fbec-507b-957e-e396-77cc61a4d6f6.170203.xyz}
-  - {name: 🇮🇳 印度D1, server: in01.170203.xyz, port: 668, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: in01.170203.xyz}
-  - {name: 🇮🇳 印度D2, server: tw1.170203.xyz, port: 12260, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: in01.170203.xyz}
-  - {name: 🇺🇸 美国D1, server: tw1.170203.xyz, port: 35667, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2usmax01.170203.xyz}
-  - {name: 🇺🇸 美国D2, server: tw5.170203.xyz, port: 10903, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2us01.233235.xyz}
-  - {name: 🇺🇸 美国D3, server: tw7.170203.xyz, port: 65186, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: us03.170203.xyz}
-  - {name: 🇺🇸 美国F1｜🔓解锁流媒体, server: tw5.170203.xyz, port: 35066, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: usmax03.170203.xyz}
-  - {name: 🇺🇸 美国F2｜🔓解锁流媒体, server: tw5.170203.xyz, port: 28440, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: usmax05.170203.xyz}
-  - {name: 🇺🇸 美国F3｜🔓解锁流媒体, server: tw1.170203.xyz, port: 15059, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: usmax05.170203.xyz}
-  - {name: 🇹🇼 台湾F1 | 🔓解锁流媒体, server: tw2.233235.xyz, port: 23263, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: tw2.233235.xyz}
-  - {name: 🇹🇼 台湾F2 | 🔓解锁流媒体, server: 2gzdx21.156786.xyz, port: 45332, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2gzdx21.156786.xyz}
-  - {name: 🇹🇼 台湾F3 | 🔓解锁流媒体, server: tw5.170203.xyz, port: 2222, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: tw5.170203.xyz}
-  - {name: 🇹🇼 台湾F4 | 🔓解锁流媒体, server: 6gzdx2.233235.xyz, port: 45332, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 6gzdx2.233235.xyz}
-  - {name: 🇹🇼 台湾F5 | 🔓解锁流媒体, server: 5gzdx.233235.xyz, port: 45335, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 5gzdx.233235.xyz}
-  - {name: 🇹🇼 台湾F6 | 🔓解锁流媒体, server: 3gzdx31.170203.xyz, port: 5646, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 3gzdx31.170203.xyz}
-  - {name: 🇹🇼 台湾C1, server: hinet-wap.myddns.me, port: 39653, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇹🇼 台湾C2, server: hinet-wap.myddns.me, port: 39603, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇭🇰 香港D1, server: tw60.233235.xyz, port: 30202, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2hkmax02.170203.xyz}
-  - {name: 🇭🇰 香港D2, server: tw3.233235.xyz, port: 28124, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax05.170203.xyz}
-  - {name: 🇭🇰 香港D3, server: 2hkmax07.170203.xyz, port: 222, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2hkmax07.170203.xyz}
-  - {name: 🇭🇰 香港D4, server: hkmax10.233235.xyz, port: 3333, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax10.233235.xyz}
-  - {name: 🇭🇰 香港F1｜🔓解锁流媒体, server: tw5.170203.xyz, port: 11339, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax04.170203.xyz}
-  - {name: 🇭🇰 香港F2｜🔓解锁流媒体, server: tw3.233235.xyz, port: 58517, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax04.170203.xyz}
-  - {name: 🇭🇰 香港C1, server: 103.28.68.181, port: 80, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇭🇰 香港C2, server: hgc.miaoddns.top, port: 12543, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇭🇰 香港C3, server: 38.6.225.148, port: 21862, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 桥洞好冷🥶带我回家🦮, server: sg-d.rcdn.link, port: 81, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522svideo.mfa.gov.cn%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}}
+  - {name: 🏳️‍🌈 ExpireDate：2024.05.17, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇸🇬 新加坡B1, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇸🇬 新加坡C1, server: 1sgmax02.156786.xyz, port: 503, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 1sgmax02.156786.xyz}
+  - {name: 🇸🇬 新加坡C2, server: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, port: 503, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz}
+  - {name: 🇸🇬 新加坡C3, server: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz, port: 504, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz}
+  - {name: 🇸🇬 新加坡C4, server: 2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz, port: 504, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2sgmax06cf4589a1-71ec-429f-b46a-892af2259b8e.233235.xyz}
+  - {name: 🇸🇬 新加坡C5, server: 2ru04d7b1648e-9312-203c-8784-442475d42f1f.233235.xyz, port: 430, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2ru04d7b1648e-9312-203c-8784-442475d42f1f.233235.xyz}
+  - {name: 🇸🇬 新加坡D1, server: 185.151.146.123, port: 80, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇸🇬 新加坡D2, server: zf-lolilio89u-jp1.8top.top, port: 46972, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇯🇵 日本B1, server: jp-d.rcdn.link, port: 80, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bcc301d4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇯🇵 日本C1, server: 2jp06.170203.xyz, port: 504, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2jp06.170203.xyz}
+  - {name: 🇯🇵 日本C2, server: tw3.233235.xyz, port: 38518, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: jpmax02.170203.xyz}
+  - {name: 🇯🇵 日本C3, server: jp0003.156786.xyz, port: 504, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: jp0003.156786.xyz}
+  - {name: 🇯🇵 日本D1, server: 178.236.36.241, port: 80, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇯🇵 日本D2, server: zf-lolilio89u-jp1.8top.top, port: 34699, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇰🇷 韩国B1, server: kr-d.rcdn.link, port: 80, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2022/12/30/20221230_18562fc37b6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇰🇷 韩国C1, server: tw60.233235.xyz, port: 25076, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2kr03411e8dbd-f18c-862b-d8fa-60711850e4bd.233235.xyz}
+  - {name: 🇰🇷 韩国C2, server: tw60.233235.xyz, port: 61187, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 0kr02.156786.xyz}
+  - {name: 🇮🇳 印度C1, server: tw60.233235.xyz, port: 35145, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: in01.170203.xyz}
+  - {name: 🇬🇧 英国D1, server: zf-lolilio89u-jp1.8top.top, port: 5024, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇺🇸 美国B1, server: us-d.rcdn.link, port: 80, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2022/12/30/20221230_18562fc37b6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇺🇸 美国B2, server: zf-s.rcdn.link, port: 6, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇺🇸 美国B3, server: zf-j.rcdn.link, port: 6, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇺🇸 美国B4, server: zf-u.rcdn.link, port: 6, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇺🇸 美国C1, server: tw5.170203.xyz, port: 35066, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: usmax03.170203.xyz}
+  - {name: 🇺🇸 美国C2, server: tw5.170203.xyz, port: 28440, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: usmax05.170203.xyz}
+  - {name: 🇺🇸 美国C3, server: tw3.233235.xyz, port: 24853, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: usmax03.170203.xyz}
+  - {name: 🇹🇼 台湾C1, server: tw2.233235.xyz, port: 23263, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: tw2.233235.xyz}
+  - {name: 🇹🇼 台湾C2, server: 2gzdx21.156786.xyz, port: 45332, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2gzdx21.156786.xyz}
+  - {name: 🇹🇼 台湾C3, server: 6gzdx2.233235.xyz, port: 45332, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 6gzdx2.233235.xyz}
+  - {name: 🇹🇼 台湾C4, server: tw7.170203.xyz, port: 670, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: tw7.170203.xyz}
+  - {name: 🇹🇼 台湾C5, server: tw60.233235.xyz, port: 11126, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: tw60.233235.xyz}
+  - {name: 🇹🇼 台湾D1, server: zf-lolilio89u-jp1.8top.top, port: 19803, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇹🇼 台湾D2, server: zf-lolilio89u-jp1.8top.top, port: 33540, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇭🇰 香港C1, server: hkmax003.233235.xyz, port: 503, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax003.233235.xyz}
+  - {name: 🇭🇰 香港C2, server: 2hkmax08.170203.xyz, port: 503, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2hkmax08.170203.xyz}
+  - {name: 🇭🇰 香港C3, server: hkmax09.170203.xyz, port: 503, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax09.170203.xyz}
+  - {name: 🇭🇰 香港C4, server: tw5.170203.xyz, port: 11339, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax04.170203.xyz}
+  - {name: 🇭🇰 香港C5, server: tw3.233235.xyz, port: 58517, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax04.170203.xyz}
+  - {name: 🇭🇰 香港D1, server: zf-lolilio89u-jp1.8top.top, port: 5004, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇭🇰 香港D2, server: zf-lolilio89u-jp1.8top.top, port: 5006, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇭🇰 香港D3, server: zf-lolilio89u-jp1.8top.top, port: 5007, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇺🇦 乌克兰B1, server: zf-s.rcdn.link, port: 7, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇺🇦 乌克兰B2, server: zf-j.rcdn.link, port: 7, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇺🇦 乌克兰B3, server: zf-u.rcdn.link, port: 7, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇸🇪 瑞典B1, server: zf-s.rcdn.link, port: 8, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇸🇪 瑞典B2, server: zf-j.rcdn.link, port: 8, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇸🇪 瑞典B3, server: zf-u.rcdn.link, port: 8, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇫🇷 法国B1, server: zf-s.rcdn.link, port: 9, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇫🇷 法国B2, server: zf-j.rcdn.link, port: 9, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
+  - {name: 🇫🇷 法国B3, server: zf-u.rcdn.link, port: 9, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇩🇪 德国D1, server: zf-lolilio89u-jp1.8top.top, port: 5017, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇫🇮 芬兰D1, server: 135.181.7.244, port: 10600, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇰🇵 朝鲜D1, server: zf-lolilio89u-jp1.8top.top, port: 5020, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇧🇷 巴西D1, server: s15.753654.xyz, port: 10152, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇦🇪 迪拜D1, server: s31.753654.xyz, port: 10452, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇨🇦 加拿大C1, server: zf-lolilio89u-jp1.8top.top, port: 5000, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇪🇸 西班牙D1, server: 172.233.110.173, port: 80, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇫🇮 芬兰D1, server: zf-lolilio89u-jp1.8top.top, port: 5019, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇦🇪 迪拜D1, server: zf-lolilio89u-jp1.8top.top, port: 5026, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇧🇷 巴西D1, server: zf-lolilio89u-jp1.8top.top, port: 5023, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇫🇷 法国D1, server: zf-lolilio89u-jp1.8top.top, port: 5003, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇨🇦 加拿大D1, server: zf-lolilio89u-jp1.8top.top, port: 5000, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇲🇽 墨西哥D1, server: zf-lolilio89u-jp1.8top.top, port: 5022, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
       - DIRECT
       - 🇸🇬 新加坡AWS｜May/25
-      - R.I.P - 向战神Dec致敬🫡
-      - 🏳️‍🌈 ExpireDate：2024.04.17
-      - 🇸🇬 新加坡D1
-      - 🇸🇬 新加坡D2
-      - 🇸🇬 新加坡D3
-      - 🇸🇬 新加坡D4
+      - 桥洞好冷🥶带我回家🦮
+      - 🏳️‍🌈 ExpireDate：2024.05.17
+      - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡C1
       - 🇸🇬 新加坡C2
       - 🇸🇬 新加坡C3
       - 🇸🇬 新加坡C4
+      - 🇸🇬 新加坡C5
+      - 🇸🇬 新加坡D1
+      - 🇸🇬 新加坡D2
+      - 🇯🇵 日本B1
+      - 🇯🇵 日本C1
+      - 🇯🇵 日本C2
+      - 🇯🇵 日本C3
       - 🇯🇵 日本D1
       - 🇯🇵 日本D2
-      - 🇯🇵 日本D3
-      - 🇰🇷 韩国D1
-      - 🇰🇷 韩国D2
-      - 🇰🇷 韩国D3
-      - 🇰🇷 韩国D1 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国C1
+      - 🇰🇷 韩国C2
+      - 🇮🇳 印度C1
       - 🇬🇧 英国D1
-      - 🇮🇳 印度D1
-      - 🇮🇳 印度D2
-      - 🇺🇸 美国D1
-      - 🇺🇸 美国D2
-      - 🇺🇸 美国D3
-      - 🇺🇸 美国F1｜🔓解锁流媒体
-      - 🇺🇸 美国F2｜🔓解锁流媒体
-      - 🇺🇸 美国F3｜🔓解锁流媒体
-      - 🇹🇼 台湾F1 | 🔓解锁流媒体
-      - 🇹🇼 台湾F2 | 🔓解锁流媒体
-      - 🇹🇼 台湾F3 | 🔓解锁流媒体
-      - 🇹🇼 台湾F4 | 🔓解锁流媒体
-      - 🇹🇼 台湾F5 | 🔓解锁流媒体
-      - 🇹🇼 台湾F6 | 🔓解锁流媒体
+      - 🇺🇸 美国B1
+      - 🇺🇸 美国B2
+      - 🇺🇸 美国B3
+      - 🇺🇸 美国B4
+      - 🇺🇸 美国C1
+      - 🇺🇸 美国C2
+      - 🇺🇸 美国C3
       - 🇹🇼 台湾C1
       - 🇹🇼 台湾C2
-      - 🇭🇰 香港D1
-      - 🇭🇰 香港D2
-      - 🇭🇰 香港D3
-      - 🇭🇰 香港D4
-      - 🇭🇰 香港F1｜🔓解锁流媒体
-      - 🇭🇰 香港F2｜🔓解锁流媒体
+      - 🇹🇼 台湾C3
+      - 🇹🇼 台湾C4
+      - 🇹🇼 台湾C5
+      - 🇹🇼 台湾D1
+      - 🇹🇼 台湾D2
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
+      - 🇭🇰 香港C4
+      - 🇭🇰 香港C5
+      - 🇭🇰 香港D1
+      - 🇭🇰 香港D2
+      - 🇭🇰 香港D3
+      - 🇺🇦 乌克兰B1
+      - 🇺🇦 乌克兰B2
+      - 🇺🇦 乌克兰B3
+      - 🇸🇪 瑞典B1
+      - 🇸🇪 瑞典B2
+      - 🇸🇪 瑞典B3
+      - 🇫🇷 法国B1
+      - 🇫🇷 法国B2
+      - 🇫🇷 法国B3
       - 🇩🇪 德国D1
       - 🇫🇮 芬兰D1
-      - 🇰🇵 朝鲜D1
-      - 🇧🇷 巴西D1
       - 🇦🇪 迪拜D1
-      - 🇨🇦 加拿大C1
-      - 🇪🇸 西班牙D1
+      - 🇧🇷 巴西D1
+      - 🇫🇷 法国D1
+      - 🇨🇦 加拿大D1
+      - 🇲🇽 墨西哥D1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -122,169 +138,65 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇸🇬 新加坡AWS｜May/25
-      - R.I.P - 向战神Dec致敬🫡
-      - 🏳️‍🌈 ExpireDate：2024.04.17
-      - 🇸🇬 新加坡D1
-      - 🇸🇬 新加坡D2
-      - 🇸🇬 新加坡D3
-      - 🇸🇬 新加坡D4
+      - 桥洞好冷🥶带我回家🦮
+      - 🏳️‍🌈 ExpireDate：2024.05.17
+      - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡C1
       - 🇸🇬 新加坡C2
       - 🇸🇬 新加坡C3
       - 🇸🇬 新加坡C4
-      - 🇯🇵 日本D1
-      - 🇯🇵 日本D2
-      - 🇯🇵 日本D3
-      - 🇰🇷 韩国D1
-      - 🇰🇷 韩国D2
-      - 🇰🇷 韩国D3
-      - 🇰🇷 韩国D1 2
-      - 🇬🇧 英国D1
-      - 🇮🇳 印度D1
-      - 🇮🇳 印度D2
-      - 🇺🇸 美国D1
-      - 🇺🇸 美国D2
-      - 🇺🇸 美国D3
-      - 🇺🇸 美国F1｜🔓解锁流媒体
-      - 🇺🇸 美国F2｜🔓解锁流媒体
-      - 🇺🇸 美国F3｜🔓解锁流媒体
-      - 🇹🇼 台湾F1 | 🔓解锁流媒体
-      - 🇹🇼 台湾F2 | 🔓解锁流媒体
-      - 🇹🇼 台湾F3 | 🔓解锁流媒体
-      - 🇹🇼 台湾F4 | 🔓解锁流媒体
-      - 🇹🇼 台湾F5 | 🔓解锁流媒体
-      - 🇹🇼 台湾F6 | 🔓解锁流媒体
-      - 🇹🇼 台湾C1
-      - 🇹🇼 台湾C2
-      - 🇭🇰 香港D1
-      - 🇭🇰 香港D2
-      - 🇭🇰 香港D3
-      - 🇭🇰 香港D4
-      - 🇭🇰 香港F1｜🔓解锁流媒体
-      - 🇭🇰 香港F2｜🔓解锁流媒体
-      - 🇭🇰 香港C1
-      - 🇭🇰 香港C2
-      - 🇭🇰 香港C3
-      - 🇩🇪 德国D1
-      - 🇫🇮 芬兰D1
-      - 🇰🇵 朝鲜D1
-      - 🇧🇷 巴西D1
-      - 🇦🇪 迪拜D1
-      - 🇨🇦 加拿大C1
-      - 🇪🇸 西班牙D1
-  - name: 🔯 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - 🇸🇬 新加坡AWS｜May/25
-      - R.I.P - 向战神Dec致敬🫡
-      - 🏳️‍🌈 ExpireDate：2024.04.17
+      - 🇸🇬 新加坡C5
       - 🇸🇬 新加坡D1
       - 🇸🇬 新加坡D2
-      - 🇸🇬 新加坡D3
-      - 🇸🇬 新加坡D4
-      - 🇸🇬 新加坡C1
-      - 🇸🇬 新加坡C2
-      - 🇸🇬 新加坡C3
-      - 🇸🇬 新加坡C4
+      - 🇯🇵 日本B1
+      - 🇯🇵 日本C1
+      - 🇯🇵 日本C2
+      - 🇯🇵 日本C3
       - 🇯🇵 日本D1
       - 🇯🇵 日本D2
-      - 🇯🇵 日本D3
-      - 🇰🇷 韩国D1
-      - 🇰🇷 韩国D2
-      - 🇰🇷 韩国D3
-      - 🇰🇷 韩国D1 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国C1
+      - 🇰🇷 韩国C2
+      - 🇮🇳 印度C1
       - 🇬🇧 英国D1
-      - 🇮🇳 印度D1
-      - 🇮🇳 印度D2
-      - 🇺🇸 美国D1
-      - 🇺🇸 美国D2
-      - 🇺🇸 美国D3
-      - 🇺🇸 美国F1｜🔓解锁流媒体
-      - 🇺🇸 美国F2｜🔓解锁流媒体
-      - 🇺🇸 美国F3｜🔓解锁流媒体
-      - 🇹🇼 台湾F1 | 🔓解锁流媒体
-      - 🇹🇼 台湾F2 | 🔓解锁流媒体
-      - 🇹🇼 台湾F3 | 🔓解锁流媒体
-      - 🇹🇼 台湾F4 | 🔓解锁流媒体
-      - 🇹🇼 台湾F5 | 🔓解锁流媒体
-      - 🇹🇼 台湾F6 | 🔓解锁流媒体
+      - 🇺🇸 美国B1
+      - 🇺🇸 美国B2
+      - 🇺🇸 美国B3
+      - 🇺🇸 美国B4
+      - 🇺🇸 美国C1
+      - 🇺🇸 美国C2
+      - 🇺🇸 美国C3
       - 🇹🇼 台湾C1
       - 🇹🇼 台湾C2
-      - 🇭🇰 香港D1
-      - 🇭🇰 香港D2
-      - 🇭🇰 香港D3
-      - 🇭🇰 香港D4
-      - 🇭🇰 香港F1｜🔓解锁流媒体
-      - 🇭🇰 香港F2｜🔓解锁流媒体
+      - 🇹🇼 台湾C3
+      - 🇹🇼 台湾C4
+      - 🇹🇼 台湾C5
+      - 🇹🇼 台湾D1
+      - 🇹🇼 台湾D2
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
-      - 🇩🇪 德国D1
-      - 🇫🇮 芬兰D1
-      - 🇰🇵 朝鲜D1
-      - 🇧🇷 巴西D1
-      - 🇦🇪 迪拜D1
-      - 🇨🇦 加拿大C1
-      - 🇪🇸 西班牙D1
-  - name: 🔮 负载均衡
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - 🇸🇬 新加坡AWS｜May/25
-      - R.I.P - 向战神Dec致敬🫡
-      - 🏳️‍🌈 ExpireDate：2024.04.17
-      - 🇸🇬 新加坡D1
-      - 🇸🇬 新加坡D2
-      - 🇸🇬 新加坡D3
-      - 🇸🇬 新加坡D4
-      - 🇸🇬 新加坡C1
-      - 🇸🇬 新加坡C2
-      - 🇸🇬 新加坡C3
-      - 🇸🇬 新加坡C4
-      - 🇯🇵 日本D1
-      - 🇯🇵 日本D2
-      - 🇯🇵 日本D3
-      - 🇰🇷 韩国D1
-      - 🇰🇷 韩国D2
-      - 🇰🇷 韩国D3
-      - 🇰🇷 韩国D1 2
-      - 🇬🇧 英国D1
-      - 🇮🇳 印度D1
-      - 🇮🇳 印度D2
-      - 🇺🇸 美国D1
-      - 🇺🇸 美国D2
-      - 🇺🇸 美国D3
-      - 🇺🇸 美国F1｜🔓解锁流媒体
-      - 🇺🇸 美国F2｜🔓解锁流媒体
-      - 🇺🇸 美国F3｜🔓解锁流媒体
-      - 🇹🇼 台湾F1 | 🔓解锁流媒体
-      - 🇹🇼 台湾F2 | 🔓解锁流媒体
-      - 🇹🇼 台湾F3 | 🔓解锁流媒体
-      - 🇹🇼 台湾F4 | 🔓解锁流媒体
-      - 🇹🇼 台湾F5 | 🔓解锁流媒体
-      - 🇹🇼 台湾F6 | 🔓解锁流媒体
-      - 🇹🇼 台湾C1
-      - 🇹🇼 台湾C2
+      - 🇭🇰 香港C4
+      - 🇭🇰 香港C5
       - 🇭🇰 香港D1
       - 🇭🇰 香港D2
       - 🇭🇰 香港D3
-      - 🇭🇰 香港D4
-      - 🇭🇰 香港F1｜🔓解锁流媒体
-      - 🇭🇰 香港F2｜🔓解锁流媒体
-      - 🇭🇰 香港C1
-      - 🇭🇰 香港C2
-      - 🇭🇰 香港C3
+      - 🇺🇦 乌克兰B1
+      - 🇺🇦 乌克兰B2
+      - 🇺🇦 乌克兰B3
+      - 🇸🇪 瑞典B1
+      - 🇸🇪 瑞典B2
+      - 🇸🇪 瑞典B3
+      - 🇫🇷 法国B1
+      - 🇫🇷 法国B2
+      - 🇫🇷 法国B3
       - 🇩🇪 德国D1
       - 🇫🇮 芬兰D1
-      - 🇰🇵 朝鲜D1
-      - 🇧🇷 巴西D1
       - 🇦🇪 迪拜D1
-      - 🇨🇦 加拿大C1
-      - 🇪🇸 西班牙D1
+      - 🇧🇷 巴西D1
+      - 🇫🇷 法国D1
+      - 🇨🇦 加拿大D1
+      - 🇲🇽 墨西哥D1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -302,59 +214,66 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
       - 🇸🇬 新加坡AWS｜May/25
-      - R.I.P - 向战神Dec致敬🫡
-      - 🏳️‍🌈 ExpireDate：2024.04.17
-      - 🇸🇬 新加坡D1
-      - 🇸🇬 新加坡D2
-      - 🇸🇬 新加坡D3
-      - 🇸🇬 新加坡D4
+      - 桥洞好冷🥶带我回家🦮
+      - 🏳️‍🌈 ExpireDate：2024.05.17
+      - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡C1
       - 🇸🇬 新加坡C2
       - 🇸🇬 新加坡C3
       - 🇸🇬 新加坡C4
+      - 🇸🇬 新加坡C5
+      - 🇸🇬 新加坡D1
+      - 🇸🇬 新加坡D2
+      - 🇯🇵 日本B1
+      - 🇯🇵 日本C1
+      - 🇯🇵 日本C2
+      - 🇯🇵 日本C3
       - 🇯🇵 日本D1
       - 🇯🇵 日本D2
-      - 🇯🇵 日本D3
-      - 🇰🇷 韩国D1
-      - 🇰🇷 韩国D2
-      - 🇰🇷 韩国D3
-      - 🇰🇷 韩国D1 2
+      - 🇰🇷 韩国B1
+      - 🇰🇷 韩国C1
+      - 🇰🇷 韩国C2
+      - 🇮🇳 印度C1
       - 🇬🇧 英国D1
-      - 🇮🇳 印度D1
-      - 🇮🇳 印度D2
-      - 🇺🇸 美国D1
-      - 🇺🇸 美国D2
-      - 🇺🇸 美国D3
-      - 🇺🇸 美国F1｜🔓解锁流媒体
-      - 🇺🇸 美国F2｜🔓解锁流媒体
-      - 🇺🇸 美国F3｜🔓解锁流媒体
-      - 🇹🇼 台湾F1 | 🔓解锁流媒体
-      - 🇹🇼 台湾F2 | 🔓解锁流媒体
-      - 🇹🇼 台湾F3 | 🔓解锁流媒体
-      - 🇹🇼 台湾F4 | 🔓解锁流媒体
-      - 🇹🇼 台湾F5 | 🔓解锁流媒体
-      - 🇹🇼 台湾F6 | 🔓解锁流媒体
+      - 🇺🇸 美国B1
+      - 🇺🇸 美国B2
+      - 🇺🇸 美国B3
+      - 🇺🇸 美国B4
+      - 🇺🇸 美国C1
+      - 🇺🇸 美国C2
+      - 🇺🇸 美国C3
       - 🇹🇼 台湾C1
       - 🇹🇼 台湾C2
-      - 🇭🇰 香港D1
-      - 🇭🇰 香港D2
-      - 🇭🇰 香港D3
-      - 🇭🇰 香港D4
-      - 🇭🇰 香港F1｜🔓解锁流媒体
-      - 🇭🇰 香港F2｜🔓解锁流媒体
+      - 🇹🇼 台湾C3
+      - 🇹🇼 台湾C4
+      - 🇹🇼 台湾C5
+      - 🇹🇼 台湾D1
+      - 🇹🇼 台湾D2
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
+      - 🇭🇰 香港C4
+      - 🇭🇰 香港C5
+      - 🇭🇰 香港D1
+      - 🇭🇰 香港D2
+      - 🇭🇰 香港D3
+      - 🇺🇦 乌克兰B1
+      - 🇺🇦 乌克兰B2
+      - 🇺🇦 乌克兰B3
+      - 🇸🇪 瑞典B1
+      - 🇸🇪 瑞典B2
+      - 🇸🇪 瑞典B3
+      - 🇫🇷 法国B1
+      - 🇫🇷 法国B2
+      - 🇫🇷 法国B3
       - 🇩🇪 德国D1
       - 🇫🇮 芬兰D1
-      - 🇰🇵 朝鲜D1
-      - 🇧🇷 巴西D1
       - 🇦🇪 迪拜D1
-      - 🇨🇦 加拿大C1
-      - 🇪🇸 西班牙D1
+      - 🇧🇷 巴西D1
+      - 🇫🇷 法国D1
+      - 🇨🇦 加拿大D1
+      - 🇲🇽 墨西哥D1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
