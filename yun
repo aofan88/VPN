@@ -67,6 +67,14 @@ proxies:
   - {name: 🇫🇷 法国D1, server: zf-lolilio89u-jp1.8top.top, port: 5003, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
   - {name: 🇨🇦 加拿大D1, server: zf-lolilio89u-jp1.8top.top, port: 5000, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
   - {name: 🇲🇽 墨西哥D1, server: zf-lolilio89u-jp1.8top.top, port: 5022, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇸🇬 新加坡V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 11542, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 🇭🇰 香港V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 10002, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 🇭🇰 香港V2｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 10003, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 台灣V1｜備用, server: 1bfz87io1.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 20006, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 台灣V2｜備用, server: 1bfz87io1.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 20017, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 德國V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 20021, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 英國V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 20022, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 俄羅斯V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 11549, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -135,6 +143,14 @@ proxy-groups:
       - 🇫🇷 法国D1
       - 🇨🇦 加拿大D1
       - 🇲🇽 墨西哥D1
+      - 🇸🇬 新加坡V1｜備用
+      - 🇭🇰 香港V1｜備用
+      - 🇭🇰 香港V2｜備用
+      - 台灣V1｜備用
+      - 台灣V2｜備用
+      - 德國V1｜備用
+      - 英國V1｜備用
+      - 俄羅斯V1｜備用
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -203,6 +219,14 @@ proxy-groups:
       - 🇫🇷 法国D1
       - 🇨🇦 加拿大D1
       - 🇲🇽 墨西哥D1
+      - 🇸🇬 新加坡V1｜備用
+      - 🇭🇰 香港V1｜備用
+      - 🇭🇰 香港V2｜備用
+      - 台灣V1｜備用
+      - 台灣V2｜備用
+      - 德國V1｜備用
+      - 英國V1｜備用
+      - 俄羅斯V1｜備用
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -282,6 +306,14 @@ proxy-groups:
       - 🇫🇷 法国D1
       - 🇨🇦 加拿大D1
       - 🇲🇽 墨西哥D1
+      - 🇸🇬 新加坡V1｜備用
+      - 🇭🇰 香港V1｜備用
+      - 🇭🇰 香港V2｜備用
+      - 台灣V1｜備用
+      - 台灣V2｜備用
+      - 德國V1｜備用
+      - 英國V1｜備用
+      - 俄羅斯V1｜備用
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
