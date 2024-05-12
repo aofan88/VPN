@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇸🇬 新加坡AWS｜May/25, server: vm-sg7.8top.top, port: 80, type: vmess, uuid: bcb59a75-cecb-4b89-9819-f6cc9a4ee80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/22/20230322_187068db3d6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 桥洞好冷🥶带James回家🦮, server: sg-d.rcdn.link, port: 81, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522svideo.mfa.gov.cn%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}}
+  - {name: 桥洞好冷🥶带我回家🦮, server: sg-d.rcdn.link, port: 81, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522svideo.mfa.gov.cn%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}}
   - {name: 🏳️‍🌈 ExpireDate：2024.05.17, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: 🇸🇬 新加坡B1, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}}
   - {name: 🇸🇬 新加坡C1, server: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, port: 510, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz}
@@ -68,6 +68,14 @@ proxies:
   - {name: 🇫🇷 法国D1, server: zf-lolilio89u-jp1.8top.top, port: 5003, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
   - {name: 🇨🇦 加拿大D1, server: zf-lolilio89u-jp1.8top.top, port: 5000, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
   - {name: 🇲🇽 墨西哥D1, server: zf-lolilio89u-jp1.8top.top, port: 5022, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇸🇬 新加坡V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 11542, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 🇭🇰 香港V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 10002, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 🇭🇰 香港V2｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 10003, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 🇹🇼台灣V1｜備用, server: 1bfz87io1.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 20006, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 🇹🇼台灣V2｜備用, server: 1bfz87io1.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 20017, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 🇩🇪德國V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 20021, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 英國V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 20022, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
+  - {name: 俄羅斯V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 11549, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -75,7 +83,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇸🇬 新加坡AWS｜May/25
-      - 桥洞好冷🥶带James回家🦮
+      - 桥洞好冷🥶带我回家🦮
       - 🏳️‍🌈 ExpireDate：2024.05.17
       - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡C1
@@ -137,6 +145,14 @@ proxy-groups:
       - 🇫🇷 法国D1
       - 🇨🇦 加拿大D1
       - 🇲🇽 墨西哥D1
+      - 🇸🇬 新加坡V1｜備用
+      - 🇭🇰 香港V1｜備用
+      - 🇭🇰 香港V2｜備用
+      - 🇹🇼台灣V1｜備用
+      - 🇹🇼台灣V2｜備用
+      - 🇩🇪德國V1｜備用
+      - 英國V1｜備用
+      - 俄羅斯V1｜備用
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -144,7 +160,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇸🇬 新加坡AWS｜May/25
-      - 桥洞好冷🥶带James回家🦮
+      - 桥洞好冷🥶带我回家🦮
       - 🏳️‍🌈 ExpireDate：2024.05.17
       - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡C1
@@ -206,6 +222,14 @@ proxy-groups:
       - 🇫🇷 法国D1
       - 🇨🇦 加拿大D1
       - 🇲🇽 墨西哥D1
+      - 🇸🇬 新加坡V1｜備用
+      - 🇭🇰 香港V1｜備用
+      - 🇭🇰 香港V2｜備用
+      - 🇹🇼台灣V1｜備用
+      - 🇹🇼台灣V2｜備用
+      - 🇩🇪德國V1｜備用
+      - 英國V1｜備用
+      - 俄羅斯V1｜備用
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -224,7 +248,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇸🇬 新加坡AWS｜May/25
-      - 桥洞好冷🥶带James回家🦮
+      - 桥洞好冷🥶带我回家🦮
       - 🏳️‍🌈 ExpireDate：2024.05.17
       - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡C1
@@ -286,6 +310,14 @@ proxy-groups:
       - 🇫🇷 法国D1
       - 🇨🇦 加拿大D1
       - 🇲🇽 墨西哥D1
+      - 🇸🇬 新加坡V1｜備用
+      - 🇭🇰 香港V1｜備用
+      - 🇭🇰 香港V2｜備用
+      - 🇹🇼台灣V1｜備用
+      - 🇹🇼台灣V2｜備用
+      - 🇩🇪德國V1｜備用
+      - 英國V1｜備用
+      - 俄羅斯V1｜備用
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
