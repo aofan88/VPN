@@ -7,66 +7,88 @@ external-controller: :9090
 proxies:
   - {name: 🇸🇬 新加坡AWS｜May/25, server: vm-sg7.8top.top, port: 80, type: vmess, uuid: bcb59a75-cecb-4b89-9819-f6cc9a4ee80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/22/20230322_187068db3d6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
   - {name: Have a nice day~, server: sgsep2022.aofan.me, port: 10086, type: trojan, password: af888.top}
-  - {name: 🇸🇬 新加坡B1, server: sg-d.rcdn.link, port: 80, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}}
-  - {name: 🇸🇬 新加坡C1, server: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, port: 510, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz}
-  - {name: 🇸🇬 新加坡C2, server: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz, port: 512, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz}
-  - {name: 🇸🇬 新加坡C3, server: sg003981958a8-15fb-e3c0-b4a1-1f8ce65a6bac.233235.xyz, port: 506, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: sg003981958a8-15fb-e3c0-b4a1-1f8ce65a6bac.233235.xyz}
-  - {name: 🇸🇬 新加坡C4, server: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz, port: 511, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz}
-  - {name: 🇸🇬 新加坡C5, server: tw4.233235.xyz, port: 52115, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: sg0003.170203.xyz}
-  - {name: 🇸🇬 新加坡C6, server: tw7.170203.xyz, port: 56083, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: sg0003.170203.xyz}
-  - {name: 🇸🇬 新加坡C7, server: sgmax05010741bf-7346-2997-25c4-9ca3628115ab.170203.xyz, port: 512, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: sgmax05010741bf-7346-2997-25c4-9ca3628115ab.170203.xyz}
-  - {name: 🇸🇬 新加坡C8, server: sgmax08.170203.xyz, port: 509, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: sgmax08.170203.xyz}
-  - {name: 🇸🇬 新加坡D2, server: zf-lolilio89u-jp1.8top.top, port: 46972, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇯🇵 日本B1, server: jp-d.rcdn.link, port: 80, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bcc301d4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇯🇵 日本C1, server: 2jp06.170203.xyz, port: 504, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2jp06.170203.xyz}
-  - {name: 🇯🇵 日本C2, server: tw3.233235.xyz, port: 38518, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: jpmax02.170203.xyz}
-  - {name: 🇯🇵 日本C3, server: jp0003.156786.xyz, port: 504, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: jp0003.156786.xyz}
-  - {name: 🇯🇵 日本D1, server: 178.236.36.241, port: 80, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇯🇵 日本D2, server: zf-lolilio89u-jp1.8top.top, port: 34699, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇰🇷 韩国B1, server: kr-d.rcdn.link, port: 80, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2022/12/30/20221230_18562fc37b6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇰🇷 韩国C1, server: tw60.233235.xyz, port: 25076, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2kr03411e8dbd-f18c-862b-d8fa-60711850e4bd.233235.xyz}
-  - {name: 🇰🇷 韩国C2, server: tw60.233235.xyz, port: 61187, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 0kr02.156786.xyz}
-  - {name: 🇮🇳 印度C1, server: tw60.233235.xyz, port: 35145, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: in01.170203.xyz}
-  - {name: 🇬🇧 英国D1, server: zf-lolilio89u-jp1.8top.top, port: 5024, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇺🇸 美国B1, server: us-d.rcdn.link, port: 80, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2022/12/30/20221230_18562fc37b6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇺🇸 美国B2, server: zf-s.rcdn.link, port: 6, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇺🇸 美国B3, server: zf-j.rcdn.link, port: 6, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇺🇸 美国B4, server: zf-u.rcdn.link, port: 6, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇺🇸 美国C1, server: tw5.170203.xyz, port: 35066, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: usmax03.170203.xyz}
-  - {name: 🇺🇸 美国C2, server: tw5.170203.xyz, port: 28440, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: usmax05.170203.xyz}
-  - {name: 🇺🇸 美国C3, server: tw3.233235.xyz, port: 24853, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: usmax03.170203.xyz}
-  - {name: 🇹🇼 台湾C1, server: tw2.233235.xyz, port: 23263, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: tw2.233235.xyz}
-  - {name: 🇹🇼 台湾C2, server: 2gzdx21.156786.xyz, port: 45332, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2gzdx21.156786.xyz}
-  - {name: 🇹🇼 台湾C3, server: 6gzdx2.233235.xyz, port: 45332, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 6gzdx2.233235.xyz}
-  - {name: 🇹🇼 台湾C4, server: tw7.170203.xyz, port: 670, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: tw7.170203.xyz}
-  - {name: 🇹🇼 台湾C5, server: tw60.233235.xyz, port: 11126, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: tw60.233235.xyz}
-  - {name: 🇹🇼 台湾D1, server: zf-lolilio89u-jp1.8top.top, port: 19803, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇹🇼 台湾D2, server: zf-lolilio89u-jp1.8top.top, port: 33540, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇭🇰 香港C1, server: 2hkmax02.170203.xyz, port: 512, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2hkmax02.170203.xyz}
-  - {name: 🇭🇰 香港C2, server: hkmax003.233235.xyz, port: 509, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax003.233235.xyz}
-  - {name: 🇭🇰 香港C3, server: hkmax03.170203.xyz, port: 507, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax03.170203.xyz}
-  - {name: 🇭🇰 香港C4, server: 2hkmax08.170203.xyz, port: 511, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: 2hkmax08.170203.xyz}
-  - {name: 🇭🇰 香港C5｜🔓解锁流媒体, server: tw5.170203.xyz, port: 11339, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax04.170203.xyz}
-  - {name: 🇭🇰 香港C6｜🔓解锁流媒体, server: tw3.233235.xyz, port: 58517, type: trojan, password: 9fcbdaca-3d4a-4d62-8f58-eafcef442f14, sni: hkmax04.170203.xyz}
-  - {name: 🇭🇰 香港D1, server: zf-lolilio89u-jp1.8top.top, port: 5004, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇭🇰 香港D2, server: zf-lolilio89u-jp1.8top.top, port: 5006, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇭🇰 香港D3, server: zf-lolilio89u-jp1.8top.top, port: 5007, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇺🇦 乌克兰B1, server: zf-s.rcdn.link, port: 7, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇺🇦 乌克兰B2, server: zf-j.rcdn.link, port: 7, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇺🇦 乌克兰B3, server: zf-u.rcdn.link, port: 7, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇪 瑞典B1, server: zf-s.rcdn.link, port: 8, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇪 瑞典B2, server: zf-j.rcdn.link, port: 8, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇸🇪 瑞典B3, server: zf-u.rcdn.link, port: 8, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/05/18/20230518_1882f2d22e4_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇫🇷 法国B1, server: zf-s.rcdn.link, port: 9, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇫🇷 法国B2, server: zf-j.rcdn.link, port: 9, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇫🇷 法国B3, server: zf-u.rcdn.link, port: 9, type: vmess, uuid: 9e49cdf4-2f50-4f94-b7ec-3496a5cf509b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/08/25/20230825_18a2a2ac897_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}}
-  - {name: 🇩🇪 德国D1, server: zf-lolilio89u-jp1.8top.top, port: 5017, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇫🇮 芬兰D1, server: zf-lolilio89u-jp1.8top.top, port: 5019, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇦🇪 迪拜D1, server: zf-lolilio89u-jp1.8top.top, port: 5026, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇧🇷 巴西D1, server: zf-lolilio89u-jp1.8top.top, port: 5023, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇫🇷 法国D1, server: zf-lolilio89u-jp1.8top.top, port: 5003, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇨🇦 加拿大D1, server: zf-lolilio89u-jp1.8top.top, port: 5000, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
-  - {name: 🇲🇽 墨西哥D1, server: zf-lolilio89u-jp1.8top.top, port: 5022, type: vmess, uuid: 4e9a5a3b-e6a9-4d0e-a754-376378d9b9bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇸🇬 新加坡C1, server: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, port: 517, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz}
+  - {name: 🇸🇬 新加坡C2, server: 1sgmax02.156786.xyz, port: 517, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 1sgmax02.156786.xyz}
+  - {name: 🇸🇬 新加坡C3, server: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz, port: 518, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz}
+  - {name: 🇸🇬 新加坡E1｜ Linode, server: oywu7iafsobgvbktcm23rpjj9rngkcfn69ph2xanjm3zf378.zhimg.xyz, port: 25483, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇸🇬 新加坡E2｜AWS, server: sg-aws.bilivideo.cloud, port: 80, type: vmess, uuid: ec1b0216-b3d1-42ad-8289-bdaeb0375f01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/yukihasu?ed=2560", headers: {Host: sgp-1.bilivideo.cloud}}}
+  - {name: 🇸🇬 新加坡E3, server: oywu7iafsobgvbktcm23rpjj9rngkcfn69ph2xanjm3zf378.zhimg.xyz, port: 25480, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇸🇬 新加坡K1｜IEPL, server: a.v2ray.wtf, port: 30009, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇸🇬 新加坡K2｜IEPL, server: a.v2ray.wtf, port: 30010, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇸🇬 新加坡K3｜IEPL, server: a.v2ray.wtf, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇯🇵 日本C1, server: 2jp06.170203.xyz, port: 517, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jp06.170203.xyz}
+  - {name: 🇯🇵 日本C2, server: 2jp003d49d788f-0651-da9d-bccb-9a4b16401436.233235.xyz, port: 519, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jp003d49d788f-0651-da9d-bccb-9a4b16401436.233235.xyz}
+  - {name: 🇯🇵 日本C3, server: tw7.170203.xyz, port: 10665, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jpmax05.233235.xyz}
+  - {name: 🇯🇵 日本D1, server: 178.236.36.241, port: 80, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇯🇵 日本D2, server: zf-lolilio89u-jp1.8top.top, port: 34699, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇯🇵 日本E1｜Linode, server: czthb4k53hzmepn6kn2fmzhjqz244txbb7k7sq8nz44e6ysf.zhimg.xyz, port: 25475, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇯🇵 日本E2｜AWS, server: jp-aws.bilivideo.cloud, port: 80, type: vmess, uuid: ec1b0216-b3d1-42ad-8289-bdaeb0375f01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/yukihasu?ed=2560", headers: {Host: jpn-1.bilivideo.cloud}}}
+  - {name: 🇯🇵 日本E3｜Akari, server: czthb4k53hzmepn6kn2fmzhjqz244txbb7k7sq8nz44e6ysf.zhimg.xyz, port: 25472, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇯🇵 日本K1｜IEPL, server: a.v2ray.wtf, port: 30013, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇯🇵 日本K2｜IEPL, server: a.v2ray.wtf, port: 30014, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇯🇵 日本K3｜IEPL, server: a.v2ray.wtf, port: 30015, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇰🇷 韩国C1, server: tw60.233235.xyz, port: 61187, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 0kr02.156786.xyz}
+  - {name: 🇰🇷 韩国C2, server: tw60.233235.xyz, port: 25076, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2kr03411e8dbd-f18c-862b-d8fa-60711850e4bd.233235.xyz}
+  - {name: 🇰🇷 韩国E1｜AWS, server: kr-aws.bilivideo.cloud, port: 80, type: vmess, uuid: ec1b0216-b3d1-42ad-8289-bdaeb0375f01, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/yukihasu?ed=2560", headers: {Host: kor-1.bilivideo.cloud}}}
+  - {name: 🇰🇷 韩国E2, server: czthb4k53hzmepn6kn2fmzhjqz244txbb7k7sq8nz44e6ysf.zhimg.xyz, port: 25441, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇺🇸 美国C1, server: tw5.170203.xyz, port: 35066, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: usmax03.170203.xyz}
+  - {name: 🇺🇸 美国C2, server: tw5.170203.xyz, port: 28440, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: usmax05.170203.xyz}
+  - {name: 🇺🇸 美国C3, server: tw1.170203.xyz, port: 15059, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: usmax05.170203.xyz}
+  - {name: 🇺🇸 美国D1, server: 23.172.40.45, port: 80, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇺🇸 美国D2, server: 141.11.74.201, port: 80, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇺🇸 美国D3, server: zf-lolilio89u-jp1.8top.top, port: 5014, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇺🇸 美国E1, server: z4nhfzat26xhv9bhg3w2tay9sjfz6rpfhpo8mw8zzam4cjnu.zhimg.xyz, port: 25592, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇺🇸 美国E2, server: z4nhfzat26xhv9bhg3w2tay9sjfz6rpfhpo8mw8zzam4cjnu.zhimg.xyz, port: 25591, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇺🇸 美国E3, server: z4nhfzat26xhv9bhg3w2tay9sjfz6rpfhpo8mw8zzam4cjnu.zhimg.xyz, port: 25590, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇹🇼 台湾C1, server: tw2.233235.xyz, port: 23263, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw2.233235.xyz}
+  - {name: 🇹🇼 台湾C2, server: 2gzdx21.156786.xyz, port: 45332, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2gzdx21.156786.xyz}
+  - {name: 🇹🇼 台湾C3, server: 3gzdx31.170203.xyz, port: 5646, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 3gzdx31.170203.xyz}
+  - {name: 🇹🇼 台湾D1, server: hinet-wap.myddns.me, port: 39653, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇹🇼 台湾D2, server: zf-lolilio89u-jp1.8top.top, port: 33540, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇹🇼 台湾E1, server: xff7qpzab8fn9wdikp69jb7s6d9fs29icv6nuzwg6kjjzi72.zhimg.xyz, port: 25490, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇹🇼 台湾E2｜中华电信, server: xff7qpzab8fn9wdikp69jb7s6d9fs29icv6nuzwg6kjjzi72.zhimg.xyz, port: 25491, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇹🇼 台湾K1｜IEPL, server: a.v2ray.wtf, port: 30005, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇹🇼 台湾K2｜IEPL, server: a.v2ray.wtf, port: 30006, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇹🇼 台湾K3｜IEPL, server: a.v2ray.wtf, port: 30007, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇭🇰 香港C1, server: 2hkmax02.170203.xyz, port: 517, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2hkmax02.170203.xyz}
+  - {name: 🇭🇰 香港C2, server: hkmax05.170203.xyz, port: 517, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: hkmax05.170203.xyz}
+  - {name: 🇭🇰 香港C3, server: tw7.170203.xyz, port: 10322, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 1sgmax01a6184395-25df-defc-df9f-844a50e80c25.170203.xyz}
+  - {name: 🇭🇰 香港D1, server: zf-lolilio89u-jp1.8top.top, port: 5004, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇭🇰 香港D2, server: zf-lolilio89u-jp1.8top.top, port: 5006, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇭🇰 香港D3, server: zf-lolilio89u-jp1.8top.top, port: 5007, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇭🇰 香港D4, server: 103.28.68.181, port: 80, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇭🇰 香港D5, server: hgc.miaoddns.top, port: 12543, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇭🇰 香港E1, server: nq697nrvucq7kzmib5f5iywmwns2amu243zhz23cfkut2ew2.zhimg.xyz, port: 25468, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇭🇰 香港E2, server: nq697nrvucq7kzmib5f5iywmwns2amu243zhz23cfkut2ew2.zhimg.xyz, port: 25460, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇭🇰 香港E3, server: nq697nrvucq7kzmib5f5iywmwns2amu243zhz23cfkut2ew2.zhimg.xyz, port: 25465, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇭🇰 香港E4, server: nq697nrvucq7kzmib5f5iywmwns2amu243zhz23cfkut2ew2.zhimg.xyz, port: 25462, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇭🇰 香港E5, server: nq697nrvucq7kzmib5f5iywmwns2amu243zhz23cfkut2ew2.zhimg.xyz, port: 25467, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇬🇧 英国E1, server: v8nzb4aarfpuvgazudkg5ryv55fw33wh7rsiyvk8x4kkgrn5.zhimg.xyz, port: 25803, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇩🇪 德国E1, server: v8nzb4aarfpuvgazudkg5ryv55fw33wh7rsiyvk8x4kkgrn5.zhimg.xyz, port: 25800, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇫🇮 芬兰D1, server: 135.181.7.244, port: 10546, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇮🇳 印度C1, server: tw60.233235.xyz, port: 35145, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: in01.170203.xyz}
+  - {name: 🇮🇳 印度E1, server: oywu7iafsobgvbktcm23rpjj9rngkcfn69ph2xanjm3zf378.zhimg.xyz, port: 25485, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇦🇪 迪拜D1, server: zf-lolilio89u-jp1.8top.top, port: 60103, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}}
+  - {name: 🇧🇷 巴西E1, server: z4nhfzat26xhv9bhg3w2tay9sjfz6rpfhpo8mw8zzam4cjnu.zhimg.xyz, port: 25595, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇦🇶 南极D1, server: zf-lolilio89u-jp1.8top.top, port: 5021, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22tms.dingtalk.com%22%7D"}}}
+  - {name: 🇷🇺 俄罗斯E1, server: czthb4k53hzmepn6kn2fmzhjqz244txbb7k7sq8nz44e6ysf.zhimg.xyz, port: 25559, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇹🇷 土耳其E1, server: v8nzb4aarfpuvgazudkg5ryv55fw33wh7rsiyvk8x4kkgrn5.zhimg.xyz, port: 25801, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇱🇺 卢森堡E1, server: v8nzb4aarfpuvgazudkg5ryv55fw33wh7rsiyvk8x4kkgrn5.zhimg.xyz, port: 25804, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇦🇷 阿根廷E1, server: v8nzb4aarfpuvgazudkg5ryv55fw33wh7rsiyvk8x4kkgrn5.zhimg.xyz, port: 25806, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇲🇽 墨西哥D1, server: s5.753654.xyz, port: 65323, type: vmess, uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22tms.dingtalk.com%22%7D"}}}
+  - {name: 🇦🇺 澳大利亚E1, server: oywu7iafsobgvbktcm23rpjj9rngkcfn69ph2xanjm3zf378.zhimg.xyz, port: 25484, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇳🇬 尼日利亚E1, server: czthb4k53hzmepn6kn2fmzhjqz244txbb7k7sq8nz44e6ysf.zhimg.xyz, port: 25440, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇮🇩 印度尼西亚E1, server: oywu7iafsobgvbktcm23rpjj9rngkcfn69ph2xanjm3zf378.zhimg.xyz, port: 25486, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇰🇵 朝鲜E1｜测试节点, server: a58ort4b5ijo7e6r277urvztvzo7i63xijg46iy7ck3muyhk.zhimg.xyz, port: 25450, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇲🇴 澳门E1｜测试节点, server: a58ort4b5ijo7e6r277urvztvzo7i63xijg46iy7ck3muyhk.zhimg.xyz, port: 25451, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: 🇦🇶 南极E1｜测试节点, server: a58ort4b5ijo7e6r277urvztvzo7i63xijg46iy7ck3muyhk.zhimg.xyz, port: 25452, type: ss, cipher: aes-128-gcm, password: ec1b0216-b3d1-42ad-8289-bdaeb0375f01}
+  - {name: ⬇️IEPL专线｜无墙但网速慢⬇️, server: sg-d.rcdn.link, port: 81, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522svideo.mfa.gov.cn%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}}
+  - {name: 🇰🇷 Korea | IEPL, server: a.v2ray.wtf, port: 30017, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇮🇳 India | IEPL, server: a.v2ray.wtf, port: 30018, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇻🇳 Vietnam｜IEPL, server: a.v2ray.wtf, port: 30019, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: 🇹🇭 Thailand | IEPL, server: a.v2ray.wtf, port: 30020, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: United Arab Emirates | IEPL, server: a.v2ray.wtf, port: 30021, type: ss, cipher: chacha20-ietf-poly1305, password: 68ffeac9-1381-4d64-a708-f7240c0e4aac}
+  - {name: ⬇️专供备用⬇️, server: sg-d.rcdn.link, port: 81, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522svideo.mfa.gov.cn%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}}
   - {name: 🇸🇬 新加坡V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 11542, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
   - {name: 🇭🇰 香港V1｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 10002, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
   - {name: 🇭🇰 香港V2｜備用, server: 11bfz87io11.zdt77miaxtlgnaws11zgsvy4w0g0lj9c.top, port: 10003, type: ssr, cipher: aes-256-cfb, password: c0HKqc, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 76195:rSmmW9, obfs-param: f417076195.microsoft.com}
@@ -83,66 +105,88 @@ proxy-groups:
       - DIRECT
       - 🇸🇬 新加坡AWS｜May/25
       - Have a nice day~
-      - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡C1
       - 🇸🇬 新加坡C2
       - 🇸🇬 新加坡C3
-      - 🇸🇬 新加坡C4
-      - 🇸🇬 新加坡C5
-      - 🇸🇬 新加坡C6
-      - 🇸🇬 新加坡C7
-      - 🇸🇬 新加坡C8
-      - 🇸🇬 新加坡D2
-      - 🇯🇵 日本B1
+      - 🇸🇬 新加坡E1｜ Linode
+      - 🇸🇬 新加坡E2｜AWS
+      - 🇸🇬 新加坡E3
+      - 🇸🇬 新加坡K1｜IEPL
+      - 🇸🇬 新加坡K2｜IEPL
+      - 🇸🇬 新加坡K3｜IEPL
       - 🇯🇵 日本C1
       - 🇯🇵 日本C2
       - 🇯🇵 日本C3
       - 🇯🇵 日本D1
       - 🇯🇵 日本D2
-      - 🇰🇷 韩国B1
+      - 🇯🇵 日本E1｜Linode
+      - 🇯🇵 日本E2｜AWS
+      - 🇯🇵 日本E3｜Akari
+      - 🇯🇵 日本K1｜IEPL
+      - 🇯🇵 日本K2｜IEPL
+      - 🇯🇵 日本K3｜IEPL
       - 🇰🇷 韩国C1
       - 🇰🇷 韩国C2
-      - 🇮🇳 印度C1
-      - 🇬🇧 英国D1
-      - 🇺🇸 美国B1
-      - 🇺🇸 美国B2
-      - 🇺🇸 美国B3
-      - 🇺🇸 美国B4
+      - 🇰🇷 韩国E1｜AWS
+      - 🇰🇷 韩国E2
       - 🇺🇸 美国C1
       - 🇺🇸 美国C2
       - 🇺🇸 美国C3
+      - 🇺🇸 美国D1
+      - 🇺🇸 美国D2
+      - 🇺🇸 美国D3
+      - 🇺🇸 美国E1
+      - 🇺🇸 美国E2
+      - 🇺🇸 美国E3
       - 🇹🇼 台湾C1
       - 🇹🇼 台湾C2
       - 🇹🇼 台湾C3
-      - 🇹🇼 台湾C4
-      - 🇹🇼 台湾C5
       - 🇹🇼 台湾D1
       - 🇹🇼 台湾D2
+      - 🇹🇼 台湾E1
+      - 🇹🇼 台湾E2｜中华电信
+      - 🇹🇼 台湾K1｜IEPL
+      - 🇹🇼 台湾K2｜IEPL
+      - 🇹🇼 台湾K3｜IEPL
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
-      - 🇭🇰 香港C4
-      - 🇭🇰 香港C5｜🔓解锁流媒体
-      - 🇭🇰 香港C6｜🔓解锁流媒体
       - 🇭🇰 香港D1
       - 🇭🇰 香港D2
       - 🇭🇰 香港D3
-      - 🇺🇦 乌克兰B1
-      - 🇺🇦 乌克兰B2
-      - 🇺🇦 乌克兰B3
-      - 🇸🇪 瑞典B1
-      - 🇸🇪 瑞典B2
-      - 🇸🇪 瑞典B3
-      - 🇫🇷 法国B1
-      - 🇫🇷 法国B2
-      - 🇫🇷 法国B3
-      - 🇩🇪 德国D1
+      - 🇭🇰 香港D4
+      - 🇭🇰 香港D5
+      - 🇭🇰 香港E1
+      - 🇭🇰 香港E2
+      - 🇭🇰 香港E3
+      - 🇭🇰 香港E4
+      - 🇭🇰 香港E5
+      - 🇬🇧 英国E1
+      - 🇩🇪 德国E1
       - 🇫🇮 芬兰D1
+      - 🇮🇳 印度C1
+      - 🇮🇳 印度E1
       - 🇦🇪 迪拜D1
-      - 🇧🇷 巴西D1
-      - 🇫🇷 法国D1
-      - 🇨🇦 加拿大D1
+      - 🇧🇷 巴西E1
+      - 🇦🇶 南极D1
+      - 🇷🇺 俄罗斯E1
+      - 🇹🇷 土耳其E1
+      - 🇱🇺 卢森堡E1
+      - 🇦🇷 阿根廷E1
       - 🇲🇽 墨西哥D1
+      - 🇦🇺 澳大利亚E1
+      - 🇳🇬 尼日利亚E1
+      - 🇮🇩 印度尼西亚E1
+      - 🇰🇵 朝鲜E1｜测试节点
+      - 🇲🇴 澳门E1｜测试节点
+      - 🇦🇶 南极E1｜测试节点
+      - ⬇️IEPL专线｜无墙但网速慢⬇️
+      - 🇰🇷 Korea | IEPL
+      - 🇮🇳 India | IEPL
+      - 🇻🇳 Vietnam｜IEPL
+      - 🇹🇭 Thailand | IEPL
+      - United Arab Emirates | IEPL
+      - ⬇️专供备用⬇️
       - 🇸🇬 新加坡V1｜備用
       - 🇭🇰 香港V1｜備用
       - 🇭🇰 香港V2｜備用
@@ -159,66 +203,88 @@ proxy-groups:
     proxies:
       - 🇸🇬 新加坡AWS｜May/25
       - Have a nice day~
-      - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡C1
       - 🇸🇬 新加坡C2
       - 🇸🇬 新加坡C3
-      - 🇸🇬 新加坡C4
-      - 🇸🇬 新加坡C5
-      - 🇸🇬 新加坡C6
-      - 🇸🇬 新加坡C7
-      - 🇸🇬 新加坡C8
-      - 🇸🇬 新加坡D2
-      - 🇯🇵 日本B1
+      - 🇸🇬 新加坡E1｜ Linode
+      - 🇸🇬 新加坡E2｜AWS
+      - 🇸🇬 新加坡E3
+      - 🇸🇬 新加坡K1｜IEPL
+      - 🇸🇬 新加坡K2｜IEPL
+      - 🇸🇬 新加坡K3｜IEPL
       - 🇯🇵 日本C1
       - 🇯🇵 日本C2
       - 🇯🇵 日本C3
       - 🇯🇵 日本D1
       - 🇯🇵 日本D2
-      - 🇰🇷 韩国B1
+      - 🇯🇵 日本E1｜Linode
+      - 🇯🇵 日本E2｜AWS
+      - 🇯🇵 日本E3｜Akari
+      - 🇯🇵 日本K1｜IEPL
+      - 🇯🇵 日本K2｜IEPL
+      - 🇯🇵 日本K3｜IEPL
       - 🇰🇷 韩国C1
       - 🇰🇷 韩国C2
-      - 🇮🇳 印度C1
-      - 🇬🇧 英国D1
-      - 🇺🇸 美国B1
-      - 🇺🇸 美国B2
-      - 🇺🇸 美国B3
-      - 🇺🇸 美国B4
+      - 🇰🇷 韩国E1｜AWS
+      - 🇰🇷 韩国E2
       - 🇺🇸 美国C1
       - 🇺🇸 美国C2
       - 🇺🇸 美国C3
+      - 🇺🇸 美国D1
+      - 🇺🇸 美国D2
+      - 🇺🇸 美国D3
+      - 🇺🇸 美国E1
+      - 🇺🇸 美国E2
+      - 🇺🇸 美国E3
       - 🇹🇼 台湾C1
       - 🇹🇼 台湾C2
       - 🇹🇼 台湾C3
-      - 🇹🇼 台湾C4
-      - 🇹🇼 台湾C5
       - 🇹🇼 台湾D1
       - 🇹🇼 台湾D2
+      - 🇹🇼 台湾E1
+      - 🇹🇼 台湾E2｜中华电信
+      - 🇹🇼 台湾K1｜IEPL
+      - 🇹🇼 台湾K2｜IEPL
+      - 🇹🇼 台湾K3｜IEPL
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
-      - 🇭🇰 香港C4
-      - 🇭🇰 香港C5｜🔓解锁流媒体
-      - 🇭🇰 香港C6｜🔓解锁流媒体
       - 🇭🇰 香港D1
       - 🇭🇰 香港D2
       - 🇭🇰 香港D3
-      - 🇺🇦 乌克兰B1
-      - 🇺🇦 乌克兰B2
-      - 🇺🇦 乌克兰B3
-      - 🇸🇪 瑞典B1
-      - 🇸🇪 瑞典B2
-      - 🇸🇪 瑞典B3
-      - 🇫🇷 法国B1
-      - 🇫🇷 法国B2
-      - 🇫🇷 法国B3
-      - 🇩🇪 德国D1
+      - 🇭🇰 香港D4
+      - 🇭🇰 香港D5
+      - 🇭🇰 香港E1
+      - 🇭🇰 香港E2
+      - 🇭🇰 香港E3
+      - 🇭🇰 香港E4
+      - 🇭🇰 香港E5
+      - 🇬🇧 英国E1
+      - 🇩🇪 德国E1
       - 🇫🇮 芬兰D1
+      - 🇮🇳 印度C1
+      - 🇮🇳 印度E1
       - 🇦🇪 迪拜D1
-      - 🇧🇷 巴西D1
-      - 🇫🇷 法国D1
-      - 🇨🇦 加拿大D1
+      - 🇧🇷 巴西E1
+      - 🇦🇶 南极D1
+      - 🇷🇺 俄罗斯E1
+      - 🇹🇷 土耳其E1
+      - 🇱🇺 卢森堡E1
+      - 🇦🇷 阿根廷E1
       - 🇲🇽 墨西哥D1
+      - 🇦🇺 澳大利亚E1
+      - 🇳🇬 尼日利亚E1
+      - 🇮🇩 印度尼西亚E1
+      - 🇰🇵 朝鲜E1｜测试节点
+      - 🇲🇴 澳门E1｜测试节点
+      - 🇦🇶 南极E1｜测试节点
+      - ⬇️IEPL专线｜无墙但网速慢⬇️
+      - 🇰🇷 Korea | IEPL
+      - 🇮🇳 India | IEPL
+      - 🇻🇳 Vietnam｜IEPL
+      - 🇹🇭 Thailand | IEPL
+      - United Arab Emirates | IEPL
+      - ⬇️专供备用⬇️
       - 🇸🇬 新加坡V1｜備用
       - 🇭🇰 香港V1｜備用
       - 🇭🇰 香港V2｜備用
@@ -246,66 +312,88 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇸🇬 新加坡AWS｜May/25
       - Have a nice day~
-      - 🇸🇬 新加坡B1
       - 🇸🇬 新加坡C1
       - 🇸🇬 新加坡C2
       - 🇸🇬 新加坡C3
-      - 🇸🇬 新加坡C4
-      - 🇸🇬 新加坡C5
-      - 🇸🇬 新加坡C6
-      - 🇸🇬 新加坡C7
-      - 🇸🇬 新加坡C8
-      - 🇸🇬 新加坡D2
-      - 🇯🇵 日本B1
+      - 🇸🇬 新加坡E1｜ Linode
+      - 🇸🇬 新加坡E2｜AWS
+      - 🇸🇬 新加坡E3
+      - 🇸🇬 新加坡K1｜IEPL
+      - 🇸🇬 新加坡K2｜IEPL
+      - 🇸🇬 新加坡K3｜IEPL
       - 🇯🇵 日本C1
       - 🇯🇵 日本C2
       - 🇯🇵 日本C3
       - 🇯🇵 日本D1
       - 🇯🇵 日本D2
-      - 🇰🇷 韩国B1
+      - 🇯🇵 日本E1｜Linode
+      - 🇯🇵 日本E2｜AWS
+      - 🇯🇵 日本E3｜Akari
+      - 🇯🇵 日本K1｜IEPL
+      - 🇯🇵 日本K2｜IEPL
+      - 🇯🇵 日本K3｜IEPL
       - 🇰🇷 韩国C1
       - 🇰🇷 韩国C2
-      - 🇮🇳 印度C1
-      - 🇬🇧 英国D1
-      - 🇺🇸 美国B1
-      - 🇺🇸 美国B2
-      - 🇺🇸 美国B3
-      - 🇺🇸 美国B4
+      - 🇰🇷 韩国E1｜AWS
+      - 🇰🇷 韩国E2
       - 🇺🇸 美国C1
       - 🇺🇸 美国C2
       - 🇺🇸 美国C3
+      - 🇺🇸 美国D1
+      - 🇺🇸 美国D2
+      - 🇺🇸 美国D3
+      - 🇺🇸 美国E1
+      - 🇺🇸 美国E2
+      - 🇺🇸 美国E3
       - 🇹🇼 台湾C1
       - 🇹🇼 台湾C2
       - 🇹🇼 台湾C3
-      - 🇹🇼 台湾C4
-      - 🇹🇼 台湾C5
       - 🇹🇼 台湾D1
       - 🇹🇼 台湾D2
+      - 🇹🇼 台湾E1
+      - 🇹🇼 台湾E2｜中华电信
+      - 🇹🇼 台湾K1｜IEPL
+      - 🇹🇼 台湾K2｜IEPL
+      - 🇹🇼 台湾K3｜IEPL
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
-      - 🇭🇰 香港C4
-      - 🇭🇰 香港C5｜🔓解锁流媒体
-      - 🇭🇰 香港C6｜🔓解锁流媒体
       - 🇭🇰 香港D1
       - 🇭🇰 香港D2
       - 🇭🇰 香港D3
-      - 🇺🇦 乌克兰B1
-      - 🇺🇦 乌克兰B2
-      - 🇺🇦 乌克兰B3
-      - 🇸🇪 瑞典B1
-      - 🇸🇪 瑞典B2
-      - 🇸🇪 瑞典B3
-      - 🇫🇷 法国B1
-      - 🇫🇷 法国B2
-      - 🇫🇷 法国B3
-      - 🇩🇪 德国D1
+      - 🇭🇰 香港D4
+      - 🇭🇰 香港D5
+      - 🇭🇰 香港E1
+      - 🇭🇰 香港E2
+      - 🇭🇰 香港E3
+      - 🇭🇰 香港E4
+      - 🇭🇰 香港E5
+      - 🇬🇧 英国E1
+      - 🇩🇪 德国E1
       - 🇫🇮 芬兰D1
+      - 🇮🇳 印度C1
+      - 🇮🇳 印度E1
       - 🇦🇪 迪拜D1
-      - 🇧🇷 巴西D1
-      - 🇫🇷 法国D1
-      - 🇨🇦 加拿大D1
+      - 🇧🇷 巴西E1
+      - 🇦🇶 南极D1
+      - 🇷🇺 俄罗斯E1
+      - 🇹🇷 土耳其E1
+      - 🇱🇺 卢森堡E1
+      - 🇦🇷 阿根廷E1
       - 🇲🇽 墨西哥D1
+      - 🇦🇺 澳大利亚E1
+      - 🇳🇬 尼日利亚E1
+      - 🇮🇩 印度尼西亚E1
+      - 🇰🇵 朝鲜E1｜测试节点
+      - 🇲🇴 澳门E1｜测试节点
+      - 🇦🇶 南极E1｜测试节点
+      - ⬇️IEPL专线｜无墙但网速慢⬇️
+      - 🇰🇷 Korea | IEPL
+      - 🇮🇳 India | IEPL
+      - 🇻🇳 Vietnam｜IEPL
+      - 🇹🇭 Thailand | IEPL
+      - United Arab Emirates | IEPL
+      - ⬇️专供备用⬇️
       - 🇸🇬 新加坡V1｜備用
       - 🇭🇰 香港V1｜備用
       - 🇭🇰 香港V2｜備用
