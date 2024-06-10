@@ -5,7 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡AWS__R.I.P.🪦, server: vm-sg7.8top.top, port: 80, client-fingerprint: chrome, type: vmess, uuid: bcb59a75-cecb-4b89-9819-f6cc9a4ee80c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/22/20230322_187068db3d6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇸🇬 新加坡DO｜无限流量, server: 104.248.157.26, port: 32903, client-fingerprint: chrome, type: vmess, uuid: 37e5604f-2b9e-4a86-8424-736af61a95bc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /downlad, headers: {Host: 104.248.157.26}}, udp: true}
+  - {name: 🇸🇬 新加坡AWS｜R.I.P.🪦, server: vm-sg7.8top.top, port: 80, client-fingerprint: chrome, type: vmess, uuid: bcb59a75-cecb-4b89-9819-f6cc9a4ee80c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/22/20230322_187068db3d6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
   - {name: 🇬🇬 盗窃传奇🐦驼背流量👧, server: sg-d.rcdn.link, port: 81, client-fingerprint: chrome, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522%252525257B%2525252522Host%2525252522:%2525252522svideo.mfa.gov.cn%2525252522%252525257D%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}, udp: true}
   - {name: 🇬🇬 ExpireDate：2024.06.19, server: sg-d.rcdn.link, port: 81, client-fingerprint: chrome, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}, udp: true}
   - {name: 🇸🇬 新加坡C1, server: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, port: 609, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, skip-cert-verify: false, udp: true}
@@ -66,14 +67,15 @@ proxies:
   - {name: 🇮🇩 印度尼西亚E1, server: oywu7iafsobgvbktcm23rpjj9rngkcfn69ph2xanjm3zf378.zhimg.xyz, port: 25486, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇰🇵 朝鲜E1, server: a58ort4b5ijo7e6r277urvztvzo7i63xijg46iy7ck3muyhk.zhimg.xyz, port: 25580, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇲🇴 澳门E1, server: a58ort4b5ijo7e6r277urvztvzo7i63xijg46iy7ck3muyhk.zhimg.xyz, port: 25581, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
-  - {name: 🇦🇶 南极E1, server: a58ort4b5ijo7e6r277urvztvzo7i63xijg46iy7ck3muyhk.zhimg.xyz, port: 25582, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
+  - {name: 南极E1, server: a58ort4b5ijo7e6r277urvztvzo7i63xijg46iy7ck3muyhk.zhimg.xyz, port: 25582, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡AWS__R.I.P.🪦
+      - 🇸🇬 新加坡DO｜无限流量
+      - 🇸🇬 新加坡AWS｜R.I.P.🪦
       - 🇬🇬 盗窃传奇🐦驼背流量👧
       - 🇬🇬 ExpireDate：2024.06.19
       - 🇸🇬 新加坡C1
@@ -134,14 +136,15 @@ proxy-groups:
       - 🇮🇩 印度尼西亚E1
       - 🇰🇵 朝鲜E1
       - 🇲🇴 澳门E1
-      - 🇦🇶 南极E1
+      - 南极E1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡AWS__R.I.P.🪦
+      - 🇸🇬 新加坡DO｜无限流量
+      - 🇸🇬 新加坡AWS｜R.I.P.🪦
       - 🇬🇬 盗窃传奇🐦驼背流量👧
       - 🇬🇬 ExpireDate：2024.06.19
       - 🇸🇬 新加坡C1
@@ -202,7 +205,7 @@ proxy-groups:
       - 🇮🇩 印度尼西亚E1
       - 🇰🇵 朝鲜E1
       - 🇲🇴 澳门E1
-      - 🇦🇶 南极E1
+      - 南极E1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -220,7 +223,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡AWS__R.I.P.🪦
+      - 🇸🇬 新加坡DO｜无限流量
+      - 🇸🇬 新加坡AWS｜R.I.P.🪦
       - 🇬🇬 盗窃传奇🐦驼背流量👧
       - 🇬🇬 ExpireDate：2024.06.19
       - 🇸🇬 新加坡C1
@@ -281,7 +285,7 @@ proxy-groups:
       - 🇮🇩 印度尼西亚E1
       - 🇰🇵 朝鲜E1
       - 🇲🇴 澳门E1
-      - 🇦🇶 南极E1
+      - 南极E1
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
