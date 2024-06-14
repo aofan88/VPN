@@ -5,26 +5,24 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡啤酒肾炎, server: 104.248.157.26, port: 22903, client-fingerprint: chrome, type: vmess, uuid: 2c4ed560-82e7-47c7-bc94-3c9cdcd0a1bb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /51121Club, headers: {Host: 104.248.157.26}}, ud🇬🇬p: true}
-  - {name: 🇸🇬 新加坡DO｜無限手套, server: 104.248.157.26, port: 32903, client-fingerprint: chrome, type: vmess, uuid: 37e5604f-2b9e-4a86-8424-736af61a95bc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /downlad, headers: {Host: 104.248.157.26}}, udp: true}
   - {name: 🇸🇬 新加坡AWS｜R.I.P.🪦, server: vm-sg7.8top.top, port: 80, client-fingerprint: chrome, type: vmess, uuid: bcb59a75-cecb-4b89-9819-f6cc9a4ee80c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/22/20230322_187068db3d6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
   - {name: 🇬🇬 盗窃传奇🐦驼背流量👧, server: sg-d.rcdn.link, port: 81, client-fingerprint: chrome, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522%252525257B%2525252522Host%2525252522:%2525252522svideo.mfa.gov.cn%2525252522%252525257D%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}, udp: true}
   - {name: 🇬🇬 ExpireDate：2024.06.19, server: sg-d.rcdn.link, port: 81, client-fingerprint: chrome, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}, udp: true}
-  - {name: 🇸🇬 新加坡C1, server: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, port: 609, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡C2, server: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz, port: 609, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡C3, server: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz, port: 609, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡C4, server: 2sgmax09.156786.xyz, port: 609, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2sgmax09.156786.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡C5, server: 2sg03.156786.xyz, port: 610, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2sg03.156786.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡C1, server: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, port: 615, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡C2, server: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz, port: 615, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡C3, server: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz, port: 612, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡C4, server: tw60.233235.xyz, port: 64884, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2sg001.156786.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡C5, server: 4sgmax02.156786.xyz, port: 613, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 4sgmax02.156786.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡E1, server: sg-aws.bilivideo.cloud, port: 80, client-fingerprint: chrome, type: vmess, uuid: ceba8c03-4fd5-4132-863a-86308dc3d42e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/yukihasu?ed=2560", headers: {Host: sgp-1.bilivideo.cloud}}, udp: true}
   - {name: 🇸🇬 新加坡E2, server: oywu7iafsobgvbktcm23rpjj9rngkcfn69ph2xanjm3zf378.zhimg.xyz, port: 25483, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇸🇬 新加坡E3, server: oywu7iafsobgvbktcm23rpjj9rngkcfn69ph2xanjm3zf378.zhimg.xyz, port: 25482, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇸🇬 新加坡E4, server: oywu7iafsobgvbktcm23rpjj9rngkcfn69ph2xanjm3zf378.zhimg.xyz, port: 25480, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇸🇬 新加坡E5, server: oywu7iafsobgvbktcm23rpjj9rngkcfn69ph2xanjm3zf378.zhimg.xyz, port: 25481, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
-  - {name: 🇯🇵 日本C1, server: 2jp06.170203.xyz, port: 610, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jp06.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本C2, server: jp03.156786.xyz, port: 609, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: jp03.156786.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本C3, server: 2jp001f7c7ca7c-1866-56c8-2816-9ad85f9e4150.170203.xyz, port: 609, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jp001f7c7ca7c-1866-56c8-2816-9ad85f9e4150.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本C4, server: 2jp002.170203.xyz, port: 607, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jp002.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本C5, server: 2jpmax05.233235.xyz, port: 609, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jpmax05.233235.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本C1, server: 2jp06.170203.xyz, port: 613, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jp06.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本C2, server: tw5.170203.xyz, port: 34042, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jp04162531be-29a9-2764-8627-51a5f4436fbd.233235.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本C3, server: 2jp003d49d788f-0651-da9d-bccb-9a4b16401436.233235.xyz, port: 611, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jp003d49d788f-0651-da9d-bccb-9a4b16401436.233235.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本C4, server: 0jp05.156786.xyz, port: 615, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 0jp05.156786.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本C5, server: 2jp001f7c7ca7c-1866-56c8-2816-9ad85f9e4150.170203.xyz, port: 614, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2jp001f7c7ca7c-1866-56c8-2816-9ad85f9e4150.170203.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本E1, server: jp-aws.bilivideo.cloud, port: 80, client-fingerprint: chrome, type: vmess, uuid: ceba8c03-4fd5-4132-863a-86308dc3d42e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/yukihasu?ed=2560", headers: {Host: jpn-1.bilivideo.cloud}}, udp: true}
   - {name: 🇯🇵 日本E2, server: czthb4k53hzmepn6kn2fmzhjqz244txbb7k7sq8nz44e6ysf.zhimg.xyz, port: 25475, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇯🇵 日本E3, server: czthb4k53hzmepn6kn2fmzhjqz244txbb7k7sq8nz44e6ysf.zhimg.xyz, port: 25472, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
@@ -33,25 +31,18 @@ proxies:
   - {name: 🇰🇷 韩国C1, server: 0kr02.156786.xyz, port: 610, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 0kr02.156786.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 韩国E1, server: kr-aws.bilivideo.cloud, port: 80, client-fingerprint: chrome, type: vmess, uuid: ceba8c03-4fd5-4132-863a-86308dc3d42e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/yukihasu?ed=2560", headers: {Host: kor-1.bilivideo.cloud}}, udp: true}
   - {name: 🇰🇷 韩国E2, server: czthb4k53hzmepn6kn2fmzhjqz244txbb7k7sq8nz44e6ysf.zhimg.xyz, port: 25441, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
-  - {name: 🇺🇸 美国C1, server: tw5.170203.xyz, port: 35066, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: usmax03.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国C2, server: tw5.170203.xyz, port: 28440, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: usmax05.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国C3, server: tw3.233235.xyz, port: 24853, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: usmax03.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国C4, server: tw3.233235.xyz, port: 33597, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2usmax01.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国C5, server: us06.156786.xyz, port: 609, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: us06.156786.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国E1, server: z4nhfzat26xhv9bhg3w2tay9sjfz6rpfhpo8mw8zzam4cjnu.zhimg.xyz, port: 25592, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇺🇸 美国E2, server: z4nhfzat26xhv9bhg3w2tay9sjfz6rpfhpo8mw8zzam4cjnu.zhimg.xyz, port: 25591, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇺🇸 美国E3, server: z4nhfzat26xhv9bhg3w2tay9sjfz6rpfhpo8mw8zzam4cjnu.zhimg.xyz, port: 25590, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
-  - {name: 🇹🇼 台湾C1, server: tw2.233235.xyz, port: 23263, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw2.233235.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾C2, server: 6gzdx2.233235.xyz, port: 45332, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 6gzdx2.233235.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾C1, server: tw4.233235.xyz, port: 670, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw4.233235.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾C2, server: tw7.170203.xyz, port: 670, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw7.170203.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇹🇼 台湾C3, server: tw3.233235.xyz, port: 11125, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw3.233235.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾C4, server: tw4.233235.xyz, port: 670, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw4.233235.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾C5, server: tw5.170203.xyz, port: 2222, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw5.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾C4, server: 2gzdx21.156786.xyz, port: 45332, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2gzdx21.156786.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾C5, server: 5gzdx.233235.xyz, port: 45335, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 5gzdx.233235.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇹🇼 台湾E1, server: xff7qpzab8fn9wdikp69jb7s6d9fs29icv6nuzwg6kjjzi72.zhimg.xyz, port: 25491, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
-  - {name: 🇭🇰 香港C1, server: 2hkmax02.170203.xyz, port: 610, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2hkmax02.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港C2, server: 2hkmax07.170203.xyz, port: 609, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2hkmax07.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港C3, server: hkmax003.233235.xyz, port: 610, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: hkmax003.233235.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港C4, server: hkmax05.170203.xyz, port: 610, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: hkmax05.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港C5, server: tw7.170203.xyz, port: 10322, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 1sgmax01a6184395-25df-defc-df9f-844a50e80c25.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港C1, server: 2hkmax02.170203.xyz, port: 613, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2hkmax02.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港C2, server: hkmax003.233235.xyz, port: 615, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: hkmax003.233235.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港C3, server: tw7.170203.xyz, port: 10322, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 1sgmax01a6184395-25df-defc-df9f-844a50e80c25.170203.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港E1, server: czthb4k53hzmepn6kn2fmzhjqz244txbb7k7sq8nz44e6ysf.zhimg.xyz, port: 25468, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇭🇰 香港E2, server: hkg-1.bilivideo.cloud, port: 8080, client-fingerprint: chrome, type: vmess, uuid: ceba8c03-4fd5-4132-863a-86308dc3d42e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/yukihasu?ed=2560", headers: {Host: hkg-2.bilivideo.cloud}}, udp: true}
   - {name: 🇭🇰 香港E3, server: nq697nrvucq7kzmib5f5iywmwns2amu243zhz23cfkut2ew2.zhimg.xyz, port: 25460, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
@@ -75,8 +66,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡啤酒肾炎
-      - 🇸🇬 新加坡DO｜無限手套
       - 🇸🇬 新加坡AWS｜R.I.P.🪦
       - 🇬🇬 盗窃传奇🐦驼背流量👧
       - 🇬🇬 ExpireDate：2024.06.19
@@ -103,11 +92,6 @@ proxy-groups:
       - 🇰🇷 韩国C1
       - 🇰🇷 韩国E1
       - 🇰🇷 韩国E2
-      - 🇺🇸 美国C1
-      - 🇺🇸 美国C2
-      - 🇺🇸 美国C3
-      - 🇺🇸 美国C4
-      - 🇺🇸 美国C5
       - 🇺🇸 美国E1
       - 🇺🇸 美国E2
       - 🇺🇸 美国E3
@@ -120,8 +104,6 @@ proxy-groups:
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
-      - 🇭🇰 香港C4
-      - 🇭🇰 香港C5
       - 🇭🇰 香港E1
       - 🇭🇰 香港E2
       - 🇭🇰 香港E3
@@ -145,8 +127,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡啤酒肾炎
-      - 🇸🇬 新加坡DO｜無限手套
       - 🇸🇬 新加坡AWS｜R.I.P.🪦
       - 🇬🇬 盗窃传奇🐦驼背流量👧
       - 🇬🇬 ExpireDate：2024.06.19
@@ -173,11 +153,6 @@ proxy-groups:
       - 🇰🇷 韩国C1
       - 🇰🇷 韩国E1
       - 🇰🇷 韩国E2
-      - 🇺🇸 美国C1
-      - 🇺🇸 美国C2
-      - 🇺🇸 美国C3
-      - 🇺🇸 美国C4
-      - 🇺🇸 美国C5
       - 🇺🇸 美国E1
       - 🇺🇸 美国E2
       - 🇺🇸 美国E3
@@ -190,8 +165,6 @@ proxy-groups:
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
-      - 🇭🇰 香港C4
-      - 🇭🇰 香港C5
       - 🇭🇰 香港E1
       - 🇭🇰 香港E2
       - 🇭🇰 香港E3
@@ -226,8 +199,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡啤酒肾炎
-      - 🇸🇬 新加坡DO｜無限手套
       - 🇸🇬 新加坡AWS｜R.I.P.🪦
       - 🇬🇬 盗窃传奇🐦驼背流量👧
       - 🇬🇬 ExpireDate：2024.06.19
@@ -254,11 +225,6 @@ proxy-groups:
       - 🇰🇷 韩国C1
       - 🇰🇷 韩国E1
       - 🇰🇷 韩国E2
-      - 🇺🇸 美国C1
-      - 🇺🇸 美国C2
-      - 🇺🇸 美国C3
-      - 🇺🇸 美国C4
-      - 🇺🇸 美国C5
       - 🇺🇸 美国E1
       - 🇺🇸 美国E2
       - 🇺🇸 美国E3
@@ -271,8 +237,6 @@ proxy-groups:
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
-      - 🇭🇰 香港C4
-      - 🇭🇰 香港C5
       - 🇭🇰 香港E1
       - 🇭🇰 香港E2
       - 🇭🇰 香港E3
