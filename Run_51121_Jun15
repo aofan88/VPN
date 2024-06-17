@@ -5,9 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇸🇬 新加坡無限奶茶, server: 159.65.10.245, port: 33355, client-fingerprint: chrome, type: vmess, uuid: 3ab56940-7912-4134-a0e7-66ded576c438, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /51121111, headers: {Host: 159.65.10.245}}, udp: true}
   - {name: 🇸🇬 新加坡AWS｜R.I.P.🪦, server: vm-sg7.8top.top, port: 80, client-fingerprint: chrome, type: vmess, uuid: bcb59a75-cecb-4b89-9819-f6cc9a4ee80c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/22/20230322_187068db3d6_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
-  - {name: 🇬🇬 盗窃传奇🐦驼背流量👧, server: sg-d.rcdn.link, port: 81, client-fingerprint: chrome, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522%252525257B%2525252522Host%2525252522:%2525252522svideo.mfa.gov.cn%2525252522%252525257D%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}, udp: true}
-  - {name: 🇬🇬 ExpireDate：2024.06.19, server: sg-d.rcdn.link, port: 81, client-fingerprint: chrome, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}, udp: true}
+  - {name: 🇬🇪 防盜技術😇帶我回家🚔, server: sg-d.rcdn.link, port: 81, client-fingerprint: chrome, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522%25257B%252522Host%252522:%252522%2525257B%25252522Host%25252522:%25252522%252525257B%2525252522Host%2525252522:%2525252522svideo.mfa.gov.cn%2525252522%252525257D%25252522%2525257D%252522%25257D%2522%257D%22%7D"}}, udp: true}
+  - {name: 🇬🇪 ExpireDate：2024.06.19, server: sg-d.rcdn.link, port: 81, client-fingerprint: chrome, type: vmess, uuid: 86e970fe-fca9-4482-85f8-59e556a66137, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/03/07/20230307_186bb7147ea_r1_1200k.mp4, headers: {Host: "%7B%22Host%22:%22svideo.mfa.gov.cn%22%7D"}}, udp: true}
   - {name: 🇸🇬 新加坡C1, server: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, port: 615, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 3sg00017d48c58a-f335-c28a-54d2-03b96293e206.233235.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡C2, server: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz, port: 615, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 1sg0519a76db6-1e89-5139-6505-56538f0d0bf2.170203.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡C3, server: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz, port: 612, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: sgmax04346722a1-7a77-45b1-94b0-cb0947712830.170203.xyz, skip-cert-verify: false, udp: true}
@@ -66,9 +67,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇸🇬 新加坡無限奶茶
       - 🇸🇬 新加坡AWS｜R.I.P.🪦
-      - 🇬🇬 盗窃传奇🐦驼背流量👧
-      - 🇬🇬 ExpireDate：2024.06.19
+      - 🇬🇪 防盜技術😇帶我回家🚔
+      - 🇬🇪 ExpireDate：2024.06.19
       - 🇸🇬 新加坡C1
       - 🇸🇬 新加坡C2
       - 🇸🇬 新加坡C3
@@ -127,9 +129,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇸🇬 新加坡無限奶茶
       - 🇸🇬 新加坡AWS｜R.I.P.🪦
-      - 🇬🇬 盗窃传奇🐦驼背流量👧
-      - 🇬🇬 ExpireDate：2024.06.19
+      - 🇬🇪 防盜技術😇帶我回家🚔
+      - 🇬🇪 ExpireDate：2024.06.19
       - 🇸🇬 新加坡C1
       - 🇸🇬 新加坡C2
       - 🇸🇬 新加坡C3
@@ -199,9 +202,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇸🇬 新加坡無限奶茶
       - 🇸🇬 新加坡AWS｜R.I.P.🪦
-      - 🇬🇬 盗窃传奇🐦驼背流量👧
-      - 🇬🇬 ExpireDate：2024.06.19
+      - 🇬🇪 防盜技術😇帶我回家🚔
+      - 🇬🇪 ExpireDate：2024.06.19
       - 🇸🇬 新加坡C1
       - 🇸🇬 新加坡C2
       - 🇸🇬 新加坡C3
