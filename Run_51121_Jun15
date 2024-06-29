@@ -38,12 +38,12 @@ proxies:
   - {name: 🇺🇸 美国E1, server: z4nhfzat26xhv9bhg3w2tay9sjfz6rpfhpo8mw8zzam4cjnu.zhimg.xyz, port: 25592, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇺🇸 美国E2, server: z4nhfzat26xhv9bhg3w2tay9sjfz6rpfhpo8mw8zzam4cjnu.zhimg.xyz, port: 25591, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇺🇸 美国E3, server: z4nhfzat26xhv9bhg3w2tay9sjfz6rpfhpo8mw8zzam4cjnu.zhimg.xyz, port: 25590, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
-  - {name: 🇨🇳 台湾C1, server: tw4.233235.xyz, port: 670, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw4.233235.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾C2, server: tw7.170203.xyz, port: 670, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw7.170203.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾C3, server: tw3.233235.xyz, port: 11125, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw3.233235.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾C4, server: 2gzdx21.156786.xyz, port: 45332, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2gzdx21.156786.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾C5, server: 5gzdx.233235.xyz, port: 45335, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 5gzdx.233235.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾E1, server: xff7qpzab8fn9wdikp69jb7s6d9fs29icv6nuzwg6kjjzi72.zhimg.xyz, port: 25491, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾C1, server: tw4.233235.xyz, port: 670, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw4.233235.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾C2, server: tw7.170203.xyz, port: 670, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw7.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾C3, server: tw3.233235.xyz, port: 11125, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: tw3.233235.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾C4, server: 2gzdx21.156786.xyz, port: 45332, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2gzdx21.156786.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾C5, server: 5gzdx.233235.xyz, port: 45335, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 5gzdx.233235.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾E1, server: xff7qpzab8fn9wdikp69jb7s6d9fs29icv6nuzwg6kjjzi72.zhimg.xyz, port: 25491, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: ceba8c03-4fd5-4132-863a-86308dc3d42e, tfo: false, udp: true}
   - {name: 🇭🇰 香港C1, server: 2hkmax02.170203.xyz, port: 613, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 2hkmax02.170203.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港C2, server: hkmax003.233235.xyz, port: 615, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: hkmax003.233235.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港C3, server: tw7.170203.xyz, port: 10322, client-fingerprint: chrome, type: trojan, password: 4c675f43-3b17-4203-a0ef-967a65ccd05c, sni: 1sgmax01a6184395-25df-defc-df9f-844a50e80c25.170203.xyz, skip-cert-verify: false, udp: true}
@@ -103,12 +103,12 @@ proxy-groups:
       - 🇺🇸 美国E1
       - 🇺🇸 美国E2
       - 🇺🇸 美国E3
-      - 🇨🇳 台湾C1
-      - 🇨🇳 台湾C2
-      - 🇨🇳 台湾C3
-      - 🇨🇳 台湾C4
-      - 🇨🇳 台湾C5
-      - 🇨🇳 台湾E1
+      - 🇹🇼 台湾C1
+      - 🇹🇼 台湾C2
+      - 🇹🇼 台湾C3
+      - 🇹🇼 台湾C4
+      - 🇹🇼 台湾C5
+      - 🇹🇼 台湾E1
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
@@ -168,12 +168,12 @@ proxy-groups:
       - 🇺🇸 美国E1
       - 🇺🇸 美国E2
       - 🇺🇸 美国E3
-      - 🇨🇳 台湾C1
-      - 🇨🇳 台湾C2
-      - 🇨🇳 台湾C3
-      - 🇨🇳 台湾C4
-      - 🇨🇳 台湾C5
-      - 🇨🇳 台湾E1
+      - 🇹🇼 台湾C1
+      - 🇹🇼 台湾C2
+      - 🇹🇼 台湾C3
+      - 🇹🇼 台湾C4
+      - 🇹🇼 台湾C5
+      - 🇹🇼 台湾E1
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
@@ -244,12 +244,12 @@ proxy-groups:
       - 🇺🇸 美国E1
       - 🇺🇸 美国E2
       - 🇺🇸 美国E3
-      - 🇨🇳 台湾C1
-      - 🇨🇳 台湾C2
-      - 🇨🇳 台湾C3
-      - 🇨🇳 台湾C4
-      - 🇨🇳 台湾C5
-      - 🇨🇳 台湾E1
+      - 🇹🇼 台湾C1
+      - 🇹🇼 台湾C2
+      - 🇹🇼 台湾C3
+      - 🇹🇼 台湾C4
+      - 🇹🇼 台湾C5
+      - 🇹🇼 台湾E1
       - 🇭🇰 香港C1
       - 🇭🇰 香港C2
       - 🇭🇰 香港C3
