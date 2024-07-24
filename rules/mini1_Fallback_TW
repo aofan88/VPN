@@ -1,10 +1,14 @@
 [custom]
-#########
-# mini1_Fallback_CN
-# ACL_Mini_Fallback 精簡帶轉移
-# zh_TW
+####################################
 # Jul/24/2024 22:08
-#########
+# @BTYteam2024
+# mini_Fallback_TW 精簡帶轉移 Ver2.0
+# APP：{@client}
+# DATE：{@date}
+# MODEL：{@template}
+# COUNT：{@count}
+# TYPE：{@type}
+####################################
 
 ruleset=⚠️ 裸奔直連,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=⛔️ 攔截訪問,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
