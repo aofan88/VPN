@@ -1,12 +1,10 @@
 ####################################
-# @BTYteam2024
-# mini_Fallback_TW 精簡帶轉移
-# APP：Clash.Meta
-# DATE：2024-07-24 22:21:51
-# MODEL：mini_Fallback_TW
-# COUNT：90
-# TYPE：vmess, trojan, hysteria2, vless, ss
-# LANGUAGE：zh_TW
+# 创建者：v2rayse.com
+# 客户端：Clash.Meta
+# 创建时间：2024-07-24 22:25:33
+# 使用模版：mini_Fallback_TW
+# 节点数量：90
+# 节点类型：vmess, trojan, hysteria2, vless, ss
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -184,7 +182,6 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - ‼️ 故障转移
       - DIRECT
       - 🇸🇬SG新加坡D1｜暴力摩托
       - SG新加坡D1｜木馬病毒
