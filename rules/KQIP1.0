@@ -1,0 +1,29 @@
+#########
+# KQIP_Mini_Fallback 精簡帶轉移
+# KQIP1.0 By Joe
+# Feb/8/2025 16:13
+#########
+
+ruleset=🇨🇳 皇帝的新衣,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=⛔️ 拒絕訪問404,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=⛔️ 拒絕訪問404,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ruleset=🇨🇳 皇帝的新衣,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+ruleset=🇨🇳 皇帝的新衣,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+ruleset=❤️ 幸福的秘诀,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+ruleset=❤️ 幸福的秘诀,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+ruleset=❤️ 幸福的秘诀,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+ruleset=🇨🇳 皇帝的新衣,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🇨🇳 皇帝的新衣,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+;ruleset=🇨🇳 皇帝的新衣,[]GEOIP,LAN
+ruleset=🇨🇳 皇帝的新衣,[]GEOIP,CN
+ruleset=🐟 漏魚歪小姐,[]FINAL
+
+custom_proxy_group=❤️ 幸福的秘诀`select`[]♻️ 志杰跳动`.*
+custom_proxy_group=♻️ 志杰跳动`url-test`.*`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🏥 毒害转移`fallback`.*`http://www.gstatic.com/generate_204`180
+custom_proxy_group=🇨🇳 皇帝的新衣`select`[]DIRECT`[]❤️ 幸福的秘诀
+custom_proxy_group=⛔️ 拒絕訪問404`select`[]REJECT`[]❤️ 幸福的秘诀
+custom_proxy_group=🐟 漏魚歪小姐`select`[]❤️ 幸福的秘诀`[]♻️ 志杰跳动`.*
+
+enable_rule_generator=true
+overwrite_original_rules=true
